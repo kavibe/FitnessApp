@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C# MAUI APP\\FitnessApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D019927-0875-4B34-9A83-5AA1AA0577CF}|FitnessApp\\FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\fitnessapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D019927-0875-4B34-9A83-5AA1AA0577CF}|FitnessApp\\FitnessApp.csproj|solutionrelative:fitnessapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\FitnessApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "FitnessApp\\MauiProgram.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\FitnessApp\\MauiProgram.cs",
+              "RelativeToolTip": "FitnessApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T15:31:14.947Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
