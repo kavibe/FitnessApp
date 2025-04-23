@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.Views.Registration.HelloPage"
+             xmlns:abs="clr-namespace:Microsoft.Maui.Controls;assembly=Microsoft.Maui.Controls"
+             BackgroundColor="#fff3f1">
+
+    <AbsoluteLayout>
+
+        <Button Text="Пропустить"
+                TextColor="#7B61FF"
+                BackgroundColor="Transparent"
+                FontAttributes="Bold"
+                FontSize="12"
+                AbsoluteLayout.LayoutBounds="1,0,AutoSize,AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Image Source="tale.png"
+               AbsoluteLayout.LayoutBounds="0.5,0.3,280,280"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Image Source="purpleform1.png"
+               AbsoluteLayout.LayoutBounds="0.75,0.9,400,400"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0.5,0.75,0.95,0.35"
+                     AbsoluteLayout.LayoutFlags="All"
+                     Padding="20">
+            <Label Text="Теперь твой фитнес — в твоих руках!"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   Margin="0,0,0,20"/>
+            <Label Text="Добро пожаловать в приложение, которое поможет тебе стать сильнее, здоровее и увереннее."
+                   FontSize="14"
+                   TextColor="Black"/>
+        </StackLayout>
+
+        <Image Source="gantele.png"
+               AbsoluteLayout.LayoutBounds="0.85,0.9,60,60"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+    </AbsoluteLayout>
+</ContentPage>
