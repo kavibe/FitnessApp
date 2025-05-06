@@ -29,7 +29,7 @@
                 FontAttributes="Bold"
                 FontSize="15"
                 Margin="20"
-                AbsoluteLayout.LayoutBounds="0,0.65,420,95"
+                AbsoluteLayout.LayoutBounds="0.3,0.65,420,95"
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Button Text="Нет аккаунта?"
