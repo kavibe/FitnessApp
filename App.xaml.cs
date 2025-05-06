@@ -1,4 +1,5 @@
-﻿using FitnessApp.Views.Registration;
+﻿using FitnessApp.Views.MainPages;
+using FitnessApp.Views.Registration;
 
 namespace FitnessApp;
 
@@ -8,6 +9,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new HowToRegistratePage();
+		MainPage = new LoginPage();
 	}
 }

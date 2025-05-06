@@ -9,29 +9,29 @@
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Image Source="bearhiding.png"
-               AbsoluteLayout.LayoutBounds="0.5,0.3,220,220"
+               AbsoluteLayout.LayoutBounds="0.5,0.3,270,270"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Image Source="line.png"
-               AbsoluteLayout.LayoutBounds="0.5,0.58,400,400"
+               AbsoluteLayout.LayoutBounds="0.5,0.6,400,400"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <Image Source="framedontlook.svg"
-               AbsoluteLayout.LayoutBounds="0.9,0,200,200"
+        <Image Source="framedontlook.png"
+               AbsoluteLayout.LayoutBounds="0.9,0,190,190"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <StackLayout Padding="20" Spacing="5" Margin="0,370,0,0">
+        <StackLayout Padding="25" Spacing="13" Margin="0,420,0,0">
 
             <!-- Email -->
             <StackLayout>
                 <Label Text="Email"
                     FontAttributes="Bold"
-                    FontSize="12"
+                    FontSize="14"
                     TextColor="Black"
                     Margin="0,0,0,6" />
                 <Frame BackgroundColor="#F5F3F0"
                     WidthRequest="360"
-                    CornerRadius="40"
+                    CornerRadius="35"
                     Padding="3"
                     HasShadow="False"
                     BorderColor="Transparent">
@@ -47,12 +47,12 @@
             <StackLayout>
                 <Label Text="Пароль"
                     FontAttributes="Bold"
-                    FontSize="12"
+                    FontSize="14"
                     TextColor="Black"
                     Margin="0,0,0,6" />
                 <Frame BackgroundColor="#F5F3F0"
                     WidthRequest="360"
-                    CornerRadius="40"
+                    CornerRadius="35"
                     Padding="3"
                     HasShadow="False"
                     BorderColor="Transparent">
@@ -80,13 +80,12 @@
         <Button Text="Назад"
                 BackgroundColor="Transparent"
                 TextColor="#8983E1"
-                BorderWidth="2"
                 CornerRadius="20"
                 Margin="20"
                 AbsoluteLayout.LayoutBounds="-0.1,0,150,80"
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <HorizontalStackLayout Padding="20" Spacing="10" Margin="0,530,0,0">
+        <HorizontalStackLayout Padding="10" Spacing="2" Margin="0,617,0,0">
             <CheckBox x:Name="PrivacyPolicyCheckBox"
                     VerticalOptions="Center"
                     Color="Black" />
@@ -94,10 +93,12 @@
             <Label VerticalOptions="Center">
                 <Label.FormattedText>
                     <FormattedString>
-                        <Span Text="Я согласен(-на) с " />
+                        <Span Text="Я согласен(-на) с "
+                            FontSize="14"/>
                         <Span Text="политикой конфиденциальности"
                             TextDecorations="Underline"
-                            TextColor="Purple">
+                            TextColor="Purple"
+                            FontSize="14">
                             <Span.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding OpenPrivacyPolicyCommand}" />
                             </Span.GestureRecognizers>

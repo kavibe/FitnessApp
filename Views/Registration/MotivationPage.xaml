@@ -16,14 +16,14 @@
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Image Source="boywithgantele.png"
-               AbsoluteLayout.LayoutBounds="0.5,0.16,350,350"
+               AbsoluteLayout.LayoutBounds="0.5,0.16,450,450"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Image Source="purpleform2.png"
                AbsoluteLayout.LayoutBounds="0.75,0.9,400,400"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <StackLayout AbsoluteLayout.LayoutBounds="0.5,0.75,0.95,0.35"
+        <StackLayout AbsoluteLayout.LayoutBounds="0.5,0.75,0.95,0.3"
                      AbsoluteLayout.LayoutFlags="All"
                      Padding="20">
             <Label Text="Достигай большего с&#10;каждым днем!"
@@ -37,7 +37,7 @@
         </StackLayout>
 
         <Image Source="lightning.png"
-               AbsoluteLayout.LayoutBounds="0.85,0.85,100,100"
+               AbsoluteLayout.LayoutBounds="0.9,0.85,90,90"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Button Text="Назад"

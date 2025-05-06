@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MPPBYdyQoEI=",
+  "dgSpecHash": "6dS5eV/Wcbk=",
   "success": true,
   "projectFilePath": "/Users/ecstasybtwru/Documents/ПП 2 семестр/Разработка/FitnessApp/FitnessApp.csproj",
   "expectedPackageFiles": [
@@ -106,11 +106,7 @@
     "/Users/ecstasybtwru/.nuget/packages/xamarin.kotlin.stdlib.jdk7/1.9.0.1/xamarin.kotlin.stdlib.jdk7.1.9.0.1.nupkg.sha512",
     "/Users/ecstasybtwru/.nuget/packages/xamarin.kotlin.stdlib.jdk8/1.9.0.1/xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "/Users/ecstasybtwru/.nuget/packages/xamarin.kotlinx.coroutines.android/1.7.2.1/xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
-    "/Users/ecstasybtwru/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.7.2.1/xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
-    "/Users/ecstasybtwru/.nuget/packages/microsoft.netcore.app.runtime.mono.android-arm/8.0.15/microsoft.netcore.app.runtime.mono.android-arm.8.0.15.nupkg.sha512",
-    "/Users/ecstasybtwru/.nuget/packages/microsoft.netcore.app.runtime.mono.android-arm64/8.0.15/microsoft.netcore.app.runtime.mono.android-arm64.8.0.15.nupkg.sha512",
-    "/Users/ecstasybtwru/.nuget/packages/microsoft.netcore.app.runtime.mono.android-x86/8.0.15/microsoft.netcore.app.runtime.mono.android-x86.8.0.15.nupkg.sha512",
-    "/Users/ecstasybtwru/.nuget/packages/microsoft.netcore.app.runtime.mono.android-x64/8.0.15/microsoft.netcore.app.runtime.mono.android-x64.8.0.15.nupkg.sha512"
+    "/Users/ecstasybtwru/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.7.2.1/xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512"
   ],
   "logs": []
 }

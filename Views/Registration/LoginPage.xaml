@@ -11,14 +11,14 @@
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Image Source="bearsmilimg.png"
-               AbsoluteLayout.LayoutBounds="0.5,0.3,220,220"
+               AbsoluteLayout.LayoutBounds="0.5,0.3,270,270"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Image Source="line.png"
-               AbsoluteLayout.LayoutBounds="0.5,0.58,400,400"
+               AbsoluteLayout.LayoutBounds="0.5,0.6,400,400"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <Image Source="framemeet.svg"
+        <Image Source="framemeet.png"
                AbsoluteLayout.LayoutBounds="0.2,0,200,200"
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
@@ -29,7 +29,7 @@
                 FontAttributes="Bold"
                 FontSize="15"
                 Margin="20"
-                AbsoluteLayout.LayoutBounds="0,0.65,410,95"
+                AbsoluteLayout.LayoutBounds="0,0.65,420,95"
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Button Text="Нет аккаунта?"

@@ -19,7 +19,7 @@
 
         <StackLayout AbsoluteLayout.LayoutBounds="0.5,0.75,0.95,0.35"
                      AbsoluteLayout.LayoutFlags="All"
-                     Padding="20">
+                     Padding="50">
 
             <Label Text="Познакомься с&#10;Борисом - твоим&#10;фитнес-медведем!"
                    FontSize="23"
