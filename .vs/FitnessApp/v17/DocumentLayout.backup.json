@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C# MAUI APP\\FitnessApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\registration\\datapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\registration\\datapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\registration\\howtoregistratepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\registration\\howtoregistratepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\registration\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\registration\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\registration\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\registration\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\registration\\datapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\registration\\datapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\registration\\howtoregistratepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\registration\\howtoregistratepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\registration\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\registration\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\registration\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\registration\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataPage.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\DataPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Registration\\DataPage.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\DataPage.xaml.cs",
+              "RelativeToolTip": "Views\\Registration\\DataPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:27:09.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataPage.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\DataPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Registration\\DataPage.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\DataPage.xaml",
+              "RelativeToolTip": "Views\\Registration\\DataPage.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T12:26:55.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Registration\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\Registration\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:02:53.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Registration\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "Views\\Registration\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:19:39.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Registration\\RegistrationPage.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\RegistrationPage.xaml",
+              "RelativeToolTip": "Views\\Registration\\RegistrationPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T12:03:26.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HowToRegistratePage.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\HowToRegistratePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Registration\\HowToRegistratePage.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\HowToRegistratePage.xaml.cs",
+              "RelativeToolTip": "Views\\Registration\\HowToRegistratePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:05:00.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HowToRegistratePage.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\HowToRegistratePage.xaml",
+              "RelativeDocumentMoniker": "Views\\Registration\\HowToRegistratePage.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\HowToRegistratePage.xaml",
+              "RelativeToolTip": "Views\\Registration\\HowToRegistratePage.xaml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T12:03:00.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T09:57:55.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Registration\\LoginPage.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\Registration\\LoginPage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T11:54:18.16Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

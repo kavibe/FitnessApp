@@ -6,4 +6,10 @@ public partial class RegistrationPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void GoHowToRegisrtratePage(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///HowToRegistratePage");
+    }
 }
+

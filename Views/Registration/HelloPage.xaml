@@ -5,40 +5,49 @@
              xmlns:abs="clr-namespace:Microsoft.Maui.Controls;assembly=Microsoft.Maui.Controls"
              BackgroundColor="#fff3f1">
 
-    <AbsoluteLayout>
+    <Grid>
 
-        <Button Text="Пропустить"
-                TextColor="#7B61FF"
-                BackgroundColor="Transparent"
-                FontAttributes="Bold"
-                FontSize="12"
-                AbsoluteLayout.LayoutBounds="1,0,AutoSize,AutoSize"
-                AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Grid.GestureRecognizers>
+            <TapGestureRecognizer Tapped="OnScreenTappedAsync" />
+        </Grid.GestureRecognizers>
 
-        <Image Source="tale.png"
-               AbsoluteLayout.LayoutBounds="0.5,0.3,370,370"
-               AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <AbsoluteLayout>
 
-        <Image Source="purpleform.png"
-               AbsoluteLayout.LayoutBounds="0.75,0.9,400,400"
-               AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <Button Text="Пропустить"
+                    Clicked="GoLoginPage"
+                    TextColor="#7B61FF"
+                    BackgroundColor="Transparent"
+                    FontAttributes="Bold"
+                    FontSize="12"
+                    AbsoluteLayout.LayoutBounds="1,0,AutoSize,AutoSize"
+                    AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <StackLayout AbsoluteLayout.LayoutBounds="0.5,0.75,1,0.3"
-                     AbsoluteLayout.LayoutFlags="All"
-                     Padding="20">
-            <Label Text="Теперь твой фитнес — в твоих руках!"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   TextColor="Black"
-                   Margin="0,0,0,20"/>
-            <Label Text="Добро пожаловать в приложение, которое поможет тебе стать сильнее, здоровее и увереннее."
-                   FontSize="16"
-                   TextColor="Black"/>
-        </StackLayout>
+            <Image Source="tale.png"
+                   AbsoluteLayout.LayoutBounds="0.5,0.3,370,370"
+                   AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <Image Source="gantele.png"
-               AbsoluteLayout.LayoutBounds="0.85,0.85,110,110"
-               AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <Image Source="purpleform.png"
+                   AbsoluteLayout.LayoutBounds="0.75,0.9,400,400"
+                   AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-    </AbsoluteLayout>
+            <StackLayout AbsoluteLayout.LayoutBounds="0.5,0.75,1,0.3"
+                         AbsoluteLayout.LayoutFlags="All"
+                         Padding="20">
+                <Label Text="Теперь твой фитнес — в твоих руках!"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       Margin="0,0,0,20"/>
+                <Label Text="Добро пожаловать в приложение, которое поможет тебе стать сильнее, здоровее и увереннее."
+                       FontSize="16"
+                       TextColor="Black"/>
+            </StackLayout>
+
+            <Image Source="gantele.png"
+                   AbsoluteLayout.LayoutBounds="0.85,0.85,110,110"
+                   AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        </AbsoluteLayout>
+
+    </Grid>
 </ContentPage>

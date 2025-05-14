@@ -21,6 +21,7 @@
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Button Text="Регистрация"
+                Clicked="GoHowToRegisrtratePage"
                 BackgroundColor="#8983E1"
                 TextColor="White"
                 CornerRadius="30"

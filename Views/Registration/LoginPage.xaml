@@ -23,6 +23,7 @@
                AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Button Text="Войти"
+                Clicked="GoDataPage"
                 BackgroundColor="#8983E1"
                 TextColor="White"
                 CornerRadius="30"
@@ -40,6 +41,7 @@
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Button Text="Регистрация >"
+                Clicked="GoRegistrationPage"
                 BackgroundColor="Transparent"
                 TextColor="#8983E1"
                 BorderColor="#8983E1"

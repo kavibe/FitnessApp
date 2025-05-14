@@ -78,6 +78,7 @@
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
 
         <Button Text="Назад"
+                Clicked="GoBack"
                 BackgroundColor="Transparent"
                 TextColor="#8983E1"
                 CornerRadius="20"
