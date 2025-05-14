@@ -33,7 +33,7 @@
                 AbsoluteLayout.LayoutBounds="0.3,0.65,420,95"
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
 
-        <Button Text="Нет аккаунта?"
+        <Label Text="Нет аккаунта?"
                 BackgroundColor="Transparent"
                 TextColor="Black"
                 Margin="20"
