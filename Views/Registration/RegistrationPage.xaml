@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.Views.Registration.RegistrationPage"
+             Title="RegistrationPage">
+    <AbsoluteLayout>
+        <Image Source="house.png"
+               AbsoluteLayout.LayoutBounds="0.5,0,500,880"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Image Source="bearsmilimg.png"
+               AbsoluteLayout.LayoutBounds="0.5,0.3,270,270"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Image Source="line.png"
+               AbsoluteLayout.LayoutBounds="0.5,0.6,400,400"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Image Source="frameyouhere.png"
+               AbsoluteLayout.LayoutBounds="0.2,0,200,200"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Button Text="Регистрация"
+                Clicked="GoHowToRegisrtratePage"
+                BackgroundColor="#8983E1"
+                TextColor="White"
+                CornerRadius="30"
+                FontAttributes="Bold"
+                FontSize="15"
+                Margin="20"
+                AbsoluteLayout.LayoutBounds="0.3,0.65,420,95"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+    </AbsoluteLayout>
+</ContentPage>

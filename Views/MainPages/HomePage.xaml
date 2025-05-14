@@ -1,0 +1,174 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace=FitnessApp.Views.MainPages"
+             x:Class="FitnessApp.Views.MainPages.HomePage"
+             BackgroundColor="#F5F3F0">
+
+
+    <Grid RowDefinitions="*,Auto">
+
+        <!-- Скроллируемая часть -->
+        <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="0">
+
+            <!-- Приветствие -->
+            <Grid ColumnDefinitions="*,Auto" Padding="20,10">
+                <VerticalStackLayout>
+                    <Label Text="Привет, Ксения" FontSize="14" TextColor="Black" />
+                    <Label Text="Хорошего дня!" FontSize="30" FontAttributes="Bold" TextColor="Black" />
+                </VerticalStackLayout>
+
+                <ImageButton
+                    Grid.Column="1"
+                    Source="notifications.png"
+                    BackgroundColor="Transparent"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    Scale="0.8"
+                    HorizontalOptions="End"
+                    VerticalOptions="Start"
+                    Margin="0,0,-10,0" />
+            </Grid>
+
+            <!-- Календарь -->
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="10">
+
+                <ImageButton
+                    Source="leftarrow.png"
+                    Clicked="OnNextWeekClicked"
+                    BackgroundColor="Transparent"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    Padding="0"
+                    Scale="0.25"
+                    Margin="-35,0,-35,0"
+                    VerticalOptions="Center"
+                    Aspect="AspectFit" />
+
+                <CollectionView ItemsSource="{Binding Days}"
+                                ItemsLayout="HorizontalList"
+                                HeightRequest="72"
+                                WidthRequest="358"
+                                SelectionMode="Single"
+                                SelectedItem="{Binding SelectedDay, Mode=TwoWay}"
+                                Margin="15,15"> <!-- Можно поиграть шириной -->
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="4,0"> <!-- Здесь задаем отступы между элементами -->
+                                <Border
+                                    Stroke="#7B61FF"
+                                    StrokeThickness="3"
+                                    BackgroundColor="White"
+                                    StrokeShape="RoundRectangle 16"
+                                    WidthRequest="40"
+                                    HeightRequest="72"
+                                    Padding="5"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center">
+
+                                    <VerticalStackLayout HorizontalOptions="Center" Spacing="2">
+                                        <Label Text="{Binding Day}" FontSize="14" FontFamily="Montserrat-Light" TextColor="Black" />
+                                        <Label Text="" FontSize="21"/>
+                                        <Label Text="{Binding DayOfWeek}" FontSize="10" FontFamily="Montserrat-Light" TextColor="Gray" />
+                                    </VerticalStackLayout>
+
+                                </Border>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <ImageButton
+                    Source="rightarrow.png"
+                    Clicked="OnNextWeekClicked"
+                    BackgroundColor="Transparent"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    Padding="0"
+                    Scale="0.25"
+                    Margin="-60,0,-35,0"
+                    VerticalOptions="Center"
+                    Aspect="AspectFit" />
+
+            </HorizontalStackLayout>
+
+            <!-- Твой прогресс -->
+            <Frame BackgroundColor="#7B61FF"
+                   CornerRadius="40"
+                   Padding="20"
+                   HeightRequest="164"
+                   HasShadow="True">
+                <VerticalStackLayout Spacing="20">
+
+                    <Label Text="Твой прогресс"
+                           FontSize="18"
+                           FontFamily="Montserrat-Bold"
+                           TextColor="White"
+                           HorizontalOptions="Center"/>
+
+                    <HorizontalStackLayout HorizontalOptions="Center" Spacing="30">
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="5">
+                            <Label Text="1350" FontSize="20" TextColor="White" HorizontalOptions="Center"/>
+                            <Label Text="ККал" FontSize="14" TextColor="White" HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="5">
+                            <Label Text="4503" FontSize="20" TextColor="White" HorizontalOptions="Center"/>
+                            <Label Text="Шагов" FontSize="14" TextColor="White" HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="5">
+                            <Label Text="5.3" FontSize="20" TextColor="White" HorizontalOptions="Center"/>
+                            <Label Text="Км" FontSize="14" TextColor="White" HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+        <!-- Нижняя навигационная панель -->
+        <Grid Row="1" HeightRequest="65" BackgroundColor="#4E4E4E" Padding="80" ColumnSpacing="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Левая кнопка -->
+            <ImageButton Source="trainingnav.svg"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center"
+                         Grid.Column="0" />
+
+            <!-- Центральная большая кнопка -->
+            <Frame HeightRequest="80"
+                   WidthRequest="80"
+                   BackgroundColor="#7B61FF"
+                   CornerRadius="20"
+                   Padding="0"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Grid.Column="1"
+                   BorderColor="Transparent"
+                   Margin="0,-35,0,0">
+                <ImageButton Source="homenav.svg"
+                             BackgroundColor="Transparent"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center" />
+            </Frame>
+
+            <!-- Правая кнопка -->
+            <ImageButton Source="profilenav.svg"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center"
+                         Grid.Column="2" />
+        </Grid>
+
+    </Grid>
+
+</ContentPage>

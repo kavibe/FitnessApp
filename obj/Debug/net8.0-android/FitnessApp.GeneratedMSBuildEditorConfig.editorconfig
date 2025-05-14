@@ -1,0 +1,91 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FitnessApp
+build_property.ProjectDir = C:\C# MAUI APP\FitnessApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/C\# MAUI APP/FitnessApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/C\# MAUI APP/FitnessApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/MainPages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.MainPages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPages\HomePage.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/Registration/BearHelloPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.Registration.BearHelloPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registration\BearHelloPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registration\BearHelloPage.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/Registration/DataPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.Registration.DataPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registration\DataPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registration\DataPage.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/Registration/HelloPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.Registration.HelloPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registration\HelloPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registration\HelloPage.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/Registration/HowToRegistratePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.Registration.HowToRegistratePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registration\HowToRegistratePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registration\HowToRegistratePage.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/Registration/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.Registration.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registration\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registration\LoginPage.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/Registration/MotivationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.Registration.MotivationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registration\MotivationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registration\MotivationPage.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/Registration/RegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.Registration.RegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registration\RegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registration\RegistrationPage.xaml

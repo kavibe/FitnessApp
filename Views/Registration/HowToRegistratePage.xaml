@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.Views.Registration.HowToRegistratePage"
+             Title="HowToRegistratePage">
+    <AbsoluteLayout>
+        <Image Source="house.png"
+               AbsoluteLayout.LayoutBounds="0.5,0,500,880"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Image Source="bearhiding.png"
+               AbsoluteLayout.LayoutBounds="0.5,0.3,270,270"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Image Source="line.png"
+               AbsoluteLayout.LayoutBounds="0.5,0.6,400,400"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Image Source="framedontlook.png"
+               AbsoluteLayout.LayoutBounds="0.9,0,190,190"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <StackLayout Padding="25" Spacing="13" Margin="0,420,0,0">
+
+            <!-- Email -->
+            <StackLayout>
+                <Label Text="Email"
+                    FontAttributes="Bold"
+                    FontSize="14"
+                    TextColor="Black"
+                    Margin="0,0,0,6" />
+                <Frame BackgroundColor="#F5F3F0"
+                    WidthRequest="360"
+                    CornerRadius="35"
+                    Padding="3"
+                    HasShadow="False"
+                    BorderColor="Transparent">
+                    <Entry Placeholder=" Ваш email"
+                        FontSize="14"
+                        TextColor="#666"
+                        PlaceholderColor="#999"
+                        BackgroundColor="Transparent" />
+                </Frame>
+            </StackLayout>
+
+            <!-- Пароль -->
+            <StackLayout>
+                <Label Text="Пароль"
+                    FontAttributes="Bold"
+                    FontSize="14"
+                    TextColor="Black"
+                    Margin="0,0,0,6" />
+                <Frame BackgroundColor="#F5F3F0"
+                    WidthRequest="360"
+                    CornerRadius="35"
+                    Padding="3"
+                    HasShadow="False"
+                    BorderColor="Transparent">
+                    <Entry Placeholder=" Ваш пароль"
+                        FontSize="14"
+                        TextColor="#666"
+                        PlaceholderColor="#999"
+                        IsPassword="True"
+                        BackgroundColor="Transparent" />
+                </Frame>
+            </StackLayout>
+
+        </StackLayout>
+
+        <Button Text="Зарегестрироваться"
+                BackgroundColor="#8983E1"
+                TextColor="White"
+                CornerRadius="30"
+                FontAttributes="Bold"
+                FontSize="15"
+                Margin="20"
+                AbsoluteLayout.LayoutBounds="0,0.99,410,95"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Button Text="Назад"
+                Clicked="GoBack"
+                BackgroundColor="Transparent"
+                TextColor="#8983E1"
+                CornerRadius="20"
+                Margin="20"
+                AbsoluteLayout.LayoutBounds="-0.1,0,150,80"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <HorizontalStackLayout Padding="10" Spacing="2" Margin="0,617,0,0">
+            <CheckBox x:Name="PrivacyPolicyCheckBox"
+                    VerticalOptions="Center"
+                    Color="Black" />
+
+            <Label VerticalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Я согласен(-на) с "
+                            FontSize="14"/>
+                        <Span Text="политикой конфиденциальности"
+                            TextDecorations="Underline"
+                            TextColor="Purple"
+                            FontSize="14">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding OpenPrivacyPolicyCommand}" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </HorizontalStackLayout>
+
+    </AbsoluteLayout>
+</ContentPage>
