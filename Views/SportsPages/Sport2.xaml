@@ -1,0 +1,58 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace=FitnessApp.Views.SportPages"
+             x:Class="FitnessApp.Views.SportsPages.Sport2"
+             Title="Sport2"
+             Background="#FAF8F5">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <HorizontalStackLayout>
+                <ImageButton Source="back_icon.svg" Clicked="GoSports" HeightRequest="10" VerticalOptions="Center"/>
+                <Label Text="Назад" VerticalOptions="Center" FontSize="14" FontFamily="Montserrat" TextColor="#3e3e3e" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="GoSports" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+
+            <Frame HasShadow="True" BorderColor="Transparent" CornerRadius="40" Padding="24, 16">
+                <Frame.Shadow>
+                    <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.4" Radius="10"/>
+                </Frame.Shadow>
+                <VerticalStackLayout Spacing="40">
+                    <VerticalStackLayout Spacing="12">
+                        <Label Text="HIIT (Высокоинтенсивный интервальный тренинг)" FontSize="24" TextColor="#6141B0" FontFamily="MontserratMedium" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                        <Label Text="Короткие взрывные интервалы (20–40 сек) чередуются с отдыхом. Максимально эффективен для жиросжигания и ускорения метаболизма. Рекомендуется для подготовленных пользователей." FontSize="16" TextColor="#3E3E3E" FontFamily="MontserratLight" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                    </VerticalStackLayout>
+
+                    <HorizontalStackLayout Spacing="24" HorizontalOptions="Center">
+                        <HorizontalStackLayout Spacing="16">
+                            <Image Source="time_icon.svg" WidthRequest="26" HeightRequest="26" />
+                            <VerticalStackLayout Spacing="0">
+                                <Label Text="Длительность:" FontFamily="Montserrat" FontSize="12" TextColor="#3E3E3E" />
+                                <Label Text="30 мин" FontSize="14" FontFamily="MontserratMedium" FontAttributes="Bold" TextColor="#3E3E3E" />
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout Spacing="16">
+                            <Image Source="intensity_icon.svg" WidthRequest="45" HeightRequest="26.47"  />
+                            <VerticalStackLayout Spacing="0">
+                                <Label Text="Сложность:"  FontFamily="Montserrat" FontSize="12" TextColor="#3E3E3E" />
+                                <Label Text="Высокая" FontSize="14" FontFamily="MontserratMedium" FontAttributes="Bold" TextColor="#3E3E3E"  />
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                    </HorizontalStackLayout>
+
+                    <Button CornerRadius="40" HeightRequest="56" Text="Начать тренировку" TextColor="White" FontFamily="MontserratMedium" FontSize="20">
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#BC6FF1" Offset="0.0" />
+                                <GradientStop Color="#6C63FF" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

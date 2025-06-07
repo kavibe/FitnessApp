@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:viewsMainPages="clr-namespace:FitnessApp.Views.MainPages"
     xmlns:viewsRegistration="clr-namespace:FitnessApp.Views.Registration"
+    xmlns:viewsSportsPages="clr-namespace:FitnessApp.Views.SportsPages"
     x:Class="FitnessApp.AppShell">
 
     <ShellContent
@@ -33,5 +34,41 @@
     <ShellContent
         ContentTemplate="{DataTemplate viewsRegistration:HowToRegistratePage}"
         Route="HowToRegistratePage" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsMainPages:MainPage}"
+        Route="HomePage" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsSportsPages:Sports}"
+        Route="Sports" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsSportsPages:Sport1}"
+        Route="Sport1" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsSportsPages:Sport2}"
+        Route="Sport2" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsSportsPages:Sport3}"
+        Route="Sport3" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsSportsPages:Sport4}"
+        Route="Sport4" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsSportsPages:Sport5}"
+        Route="Sport5" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsSportsPages:Sport6}"
+        Route="Sport6" />
+
+
+
+
 
 </Shell>

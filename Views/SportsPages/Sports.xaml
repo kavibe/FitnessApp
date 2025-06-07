@@ -1,0 +1,241 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace=FitnessApp.Views.SportPages"
+             x:Class="FitnessApp.Views.SportsPages.Sports"
+             Title="Sports"
+             Background="#FAF8F5">
+
+
+    <Grid RowDefinitions="*, Auto">
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="20" Spacing="20">
+
+                <Label Text="Тренировки" FontSize="30" FontFamily="MontserratMedium" TextColor="#3E3E3E" HorizontalOptions="Center"/>
+
+                <Grid>
+                    <Frame CornerRadius="40" BackgroundColor="White" Padding="24" HasShadow="True" BorderColor="Transparent" InputTransparent="False">
+                        <Frame.Shadow>
+                            <Shadow 
+                                Brush="#4E4E4E"
+                                Offset="5,5"
+                                Opacity="0.4"
+                                Radius="10"/>
+                        </Frame.Shadow>
+                        <VerticalStackLayout Spacing="16">
+                            <VerticalStackLayout Spacing="12">
+                                <Label Text="Функциональный тренинг →" FontSize="20" TextColor="#6141B0" FontFamily="MontserratMedium"/>
+                                <Label Text="Комплекс упражнений, имитирующих повседневные движения..." FontSize="16" TextColor="#3E3E3E" FontFamily="MontserratLight"/>
+                            </VerticalStackLayout>
+                            <HorizontalStackLayout Spacing="32">
+                                <HorizontalStackLayout Spacing="8" HorizontalOptions="End">
+                                    <Image Source="time_icon.svg" WidthRequest="20" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="45 мин" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Spacing="8">
+                                    <Image Source="intensity_icon.svg" WidthRequest="34" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="Средняя" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+
+                    </Frame>
+
+                    <Button 
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0" 
+                        Clicked="GoSport1" 
+                        CornerRadius="40" />    
+                </Grid>
+
+                <Grid>
+                    <Frame CornerRadius="40" BackgroundColor="White" Padding="24" HasShadow="True" BorderColor="Transparent">
+                        <Frame.Shadow>
+                            <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.4" Radius="10"/>
+                        </Frame.Shadow>
+                        <VerticalStackLayout Spacing="16">
+                            <VerticalStackLayout Spacing="12">
+                                <Label Text="HIIT →" FontSize="20" TextColor="#6141B0" FontFamily="MontserratMedium"/>
+                                <Label Text="Короткие взрывные интервалы (20–40 сек) чередуются с отдыхом. Максимально эффективен..." FontSize="16" TextColor="#3E3E3E" FontFamily="MontserratLight"/>
+                            </VerticalStackLayout>
+                            <HorizontalStackLayout Spacing="32">
+                                <HorizontalStackLayout Spacing="8" HorizontalOptions="End">
+                                    <Image Source="time_icon.svg" WidthRequest="20" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="30 мин" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Spacing="8">
+                                    <Image Source="intensity_icon.svg" WidthRequest="34" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="Высокая" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Button 
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0" 
+                        Clicked="GoSport2" 
+                        CornerRadius="40" />        
+
+                </Grid>
+
+                <Grid>
+                    <Frame CornerRadius="40" BackgroundColor="White" Padding="24" HasShadow="True" BorderColor="Transparent">
+                        <Frame.Shadow>
+                            <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.4" Radius="10"/>
+                        </Frame.Shadow>
+                        <VerticalStackLayout Spacing="16">
+                            <VerticalStackLayout Spacing="12">
+                                <Label Text="Силовая тренировка →" FontSize="20" TextColor="#6141B0" FontFamily="MontserratMedium"/>
+                                <Label Text="Фокус на рост мышц и силу с использованием свободных весов или тренажёров..." FontSize="16" TextColor="#3E3E3E" FontFamily="MontserratLight"/>
+                            </VerticalStackLayout>
+                            <HorizontalStackLayout Spacing="32">
+                                <HorizontalStackLayout Spacing="8" HorizontalOptions="End">
+                                    <Image Source="time_icon.svg" WidthRequest="20" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="45 мин" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Spacing="8">
+                                    <Image Source="intensity_icon.svg" WidthRequest="34" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="Средняя" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Button 
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0" 
+                        Clicked="GoSport3" 
+                        CornerRadius="40" />
+
+                </Grid>
+
+                <Grid>
+                    <Frame CornerRadius="40" BackgroundColor="White" Padding="24" HasShadow="True" BorderColor="Transparent">
+                        <Frame.Shadow>
+                            <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.4" Radius="10"/>
+                        </Frame.Shadow>
+                        <VerticalStackLayout Spacing="16">
+                            <VerticalStackLayout Spacing="12">
+                                <Label Text="Йога →" FontSize="20" TextColor="#6141B0" FontFamily="MontserratMedium"/>
+                                <Label Text="Медленные, осознанные упражнения на гибкость, баланс и дыхание. Помогает..." FontSize="16" TextColor="#3E3E3E" FontFamily="MontserratLight"/>
+                            </VerticalStackLayout>
+                            <HorizontalStackLayout Spacing="32">
+                                <HorizontalStackLayout Spacing="8" HorizontalOptions="End">
+                                    <Image Source="time_icon.svg" WidthRequest="20" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="45 мин" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Spacing="8">
+                                    <Image Source="intensity_icon.svg" WidthRequest="34" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="Легкая" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Button 
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0" 
+                        Clicked="GoSport4" 
+                        CornerRadius="40" />        
+
+                </Grid>
+
+                <Grid>
+                    <Frame CornerRadius="40" BackgroundColor="White" Padding="24" HasShadow="True" BorderColor="Transparent">
+                        <Frame.Shadow>
+                            <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.4" Radius="10"/>
+                        </Frame.Shadow>
+                        <VerticalStackLayout Spacing="16">
+                            <VerticalStackLayout Spacing="12">
+                                <Label Text="Растяжка →" FontSize="20" TextColor="#6141B0" FontFamily="MontserratMedium"/>
+                                <Label Text="Статические и динамические упражнения для улучшения гибкости и расслабления..." FontSize="16" TextColor="#3E3E3E" FontFamily="MontserratLight"/>
+                            </VerticalStackLayout>
+                            <HorizontalStackLayout Spacing="32">
+                                <HorizontalStackLayout Spacing="8" HorizontalOptions="End">
+                                    <Image Source="time_icon.svg" WidthRequest="20" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="30 мин" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Spacing="8">
+                                    <Image Source="intensity_icon.svg" WidthRequest="34" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="Легкая" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Button 
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0" 
+                        Clicked="GoSport5" 
+                        CornerRadius="40" />            
+
+                </Grid>
+
+                <Grid>
+                    <Frame CornerRadius="40" BackgroundColor="White" Padding="24" HasShadow="True" BorderColor="Transparent">
+                        <Frame.Shadow>
+                            <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.4" Radius="10"/>
+                        </Frame.Shadow>
+                        <VerticalStackLayout Spacing="16">
+                            <VerticalStackLayout Spacing="12">
+                                <Label Text="Круговая тренировка →" FontSize="20" TextColor="#6141B0" FontFamily="MontserratMedium"/>
+                                <Label Text="Чередование 6–10 упражнений на разные группы мышц с минимальным отдыхом..." FontSize="16" TextColor="#3E3E3E" FontFamily="MontserratLight"/>
+                            </VerticalStackLayout>
+                            <HorizontalStackLayout Spacing="32">
+                                <HorizontalStackLayout Spacing="8" HorizontalOptions="End">
+                                    <Image Source="time_icon.svg" WidthRequest="20" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="30 мин" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Spacing="8">
+                                    <Image Source="intensity_icon.svg" WidthRequest="34" HeightRequest="20" VerticalOptions="Center"/>
+                                    <Label Text="Средняя" FontSize="12" TextColor="#3E3E3E" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Button 
+                        BackgroundColor="Transparent" 
+                        BorderWidth="0" 
+                        Clicked="GoSport6" 
+                        CornerRadius="40" />    
+                </Grid>
+
+
+
+                <Button Text="+ Добавить тренировку" FontSize="16" TextColor="#3e3e3e" BackgroundColor="Transparent" FontFamily="Montserrat" BorderWidth="0" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+        <Grid Grid.Row="1" BackgroundColor="#3E3E3E" HeightRequest="72" ColumnDefinitions="*,*,*">
+
+            <!-- Левая кнопка -->
+            <ImageButton Source="nav_home.svg" Clicked="GoHomePage" BackgroundColor="Transparent" Grid.Column="0" Padding="24" HorizontalOptions="End"/>
+
+            <!--  кнопка по середине -->
+            <Frame HeightRequest="80"
+       WidthRequest="80"
+       CornerRadius="20"
+       Padding="0"
+       HorizontalOptions="Center"
+       VerticalOptions="Center"
+       Grid.Column="1"
+       BorderColor="Transparent"
+       Margin="0,-35,0,0">
+                <Frame.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#BC6FF1" Offset="0.0" />
+                        <GradientStop Color="#6C63FF" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <ImageButton Source="nav_sport.svg"
+         BackgroundColor="Transparent"
+         HorizontalOptions="Center"
+         VerticalOptions="Center" />
+            </Frame>
+
+            <!-- Правая кнопка -->
+            <ImageButton Source="nav_profile.svg" BackgroundColor="Transparent" Grid.Column="2" Padding="24" HorizontalOptions="Start"/>
+        </Grid>
+    </Grid>
+</ContentPage>

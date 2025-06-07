@@ -33,6 +33,17 @@
                 AbsoluteLayout.LayoutBounds="0.3,0.65,420,95"
                 AbsoluteLayout.LayoutFlags="PositionProportional" />
 
+        <Button Text="Режим гостя"
+                Clicked="GoToGuest"
+                BackgroundColor="#8983E1"
+                TextColor="White"
+                CornerRadius="30"
+                FontAttributes="Bold"
+                FontSize="15"
+                Margin="20"
+                AbsoluteLayout.LayoutBounds="0.3,0.75,420,95"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
         <Label Text="Нет аккаунта?"
                 BackgroundColor="Transparent"
                 TextColor="Black"

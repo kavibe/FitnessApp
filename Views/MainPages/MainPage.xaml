@@ -1,0 +1,351 @@
+﻿
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace=FitnessApp.Views.MainPages"
+             x:Class="FitnessApp.Views.MainPages.MainPage"
+             BackgroundColor="#FAF8F5"
+             Title="Main">
+
+    <Grid RowDefinitions="*, auto">
+        <ScrollView Grid.Row="0">
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="20">
+
+            <!-- Приветствие и 2 иконки-->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="12"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label
+                    Text="Хорошего дня!"
+                    FontSize="30"
+                    FontFamily="MontserratMedium"
+                    TextColor="#3e3e3e"
+                    Grid.Row="1" Grid.Column="0"/>
+
+                    <Label
+                    Text="Привет, Друг"
+                    FontSize="12"
+                    FontFamily="MontserratMedium"
+                    TextColor="#3e3e3e"
+                    Grid.Row="0" Grid.Column="0"/>
+
+                    <ImageButton 
+                    VerticalOptions="Start"
+                    Source="icon_calendar.png" 
+                    BackgroundColor="Transparent"
+                    WidthRequest="27"
+                    HeightRequest="27"
+                    Grid.Row="1" Grid.Column="1"
+                    />
+                    <ImageButton 
+                    VerticalOptions="Start"
+                    Source="icon_bell.png" 
+                    BackgroundColor="Transparent"
+                    WidthRequest="27"
+                    HeightRequest="27"
+                    Grid.Row="1" Grid.Column="3"/>
+
+                </Grid>
+
+                <!-- Календарь -->
+            <ScrollView Orientation="Horizontal" HorizontalOptions="Center">
+                <HorizontalStackLayout Spacing="8">
+                    <ImageButton 
+                        Source="icon_left.png" 
+                        BackgroundColor="Transparent"
+                        WidthRequest="11"
+                        HeightRequest="18"/>
+
+                    <Frame 
+                        Padding="0" 
+                        CornerRadius="16" 
+                        BackgroundColor="White"
+                        BorderColor="#D0CEF9">
+                        <VerticalStackLayout >
+                            <Frame
+                                Padding="8"
+                                CornerRadius="16"
+                                BackgroundColor="#ECECFF"
+                                BorderColor="#D0CEF9">
+                                <Label Text="23" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                            </Frame>
+                            <Label Text="пн" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Frame 
+                        Padding="0" 
+                        CornerRadius="16" 
+                        BackgroundColor="#D0CEF9"
+                        BorderColor="#D0CEF9">
+                        <VerticalStackLayout >
+                            <Frame
+                                Padding="8"
+                                CornerRadius="16"
+                                BackgroundColor="#8983E1"
+                                BorderColor="#8983E1">
+                                <Label Text="24" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#FAF8F5"/>
+                            </Frame>
+                            <Label Text="вт" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Frame 
+                        Padding="0" 
+                        CornerRadius="16" 
+                        BackgroundColor="White"
+                        BorderColor="#D0CEF9">
+                        <VerticalStackLayout >
+                            <Frame
+                                Padding="8"
+                                CornerRadius="16"
+                                BackgroundColor="#ECECFF"
+                                BorderColor="#D0CEF9">
+                                <Label Text="25" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                            </Frame>
+                            <Label Text="ср" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Frame 
+                        Padding="0" 
+                        CornerRadius="16" 
+                        BackgroundColor="White"
+                        BorderColor="#D0CEF9">
+                        <VerticalStackLayout >
+                            <Frame
+                                Padding="8"
+                                CornerRadius="16"
+                                BackgroundColor="#ECECFF"
+                                BorderColor="#D0CEF9">
+                                <Label Text="26" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                            </Frame>
+                            <Label Text="чт" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Frame 
+                        Padding="0" 
+                        CornerRadius="16" 
+                        BackgroundColor="White"
+                        BorderColor="#D0CEF9">
+                        <VerticalStackLayout >
+                            <Frame
+                                Padding="8"
+                                CornerRadius="16"
+                                BackgroundColor="#ECECFF"
+                                BorderColor="#D0CEF9">
+                                <Label Text="27" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                            </Frame>
+                            <Label Text="пт" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Frame 
+                        Padding="0" 
+                        CornerRadius="16" 
+                        BackgroundColor="White"
+                        BorderColor="#D0CEF9">
+                        <VerticalStackLayout >
+                            <Frame
+                                Padding="8"
+                                CornerRadius="16"
+                                BackgroundColor="#ECECFF"
+                                BorderColor="#D0CEF9">
+                                <Label Text="28" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                            </Frame>
+                            <Label Text="сб" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Frame 
+                        Padding="0" 
+                        CornerRadius="16" 
+                        BackgroundColor="White"
+                        BorderColor="#D0CEF9">
+                        <VerticalStackLayout >
+                            <Frame
+                                Padding="8"
+                                CornerRadius="16"
+                                BackgroundColor="#ECECFF"
+                                BorderColor="#D0CEF9">
+                                <Label Text="29" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                            </Frame>
+                            <Label Text="вс" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <ImageButton 
+                        Source="icon_right.png" 
+                        BackgroundColor="Transparent"
+                        WidthRequest="11"
+                        HeightRequest="18"/>
+
+                </HorizontalStackLayout>
+            </ScrollView>
+
+            <!-- Твой прогресс -->
+            <Frame CornerRadius="40" HasShadow="True" Padding="20" BackgroundColor="Transparent" BorderColor="Transparent">
+                <Frame.Shadow>
+                    <Shadow 
+                        Brush="Brown"
+                        Offset="10,5"
+                        Opacity="0.2"
+                        Radius="10"/>
+                </Frame.Shadow>
+                <Frame.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#BC6FF1" Offset="0.0" />
+                        <GradientStop Color="#6C63FF" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Твой прогресс" FontFamily="MontserratSemiBold" FontSize="16" TextColor="White" HorizontalOptions="Center" />
+
+                    <HorizontalStackLayout HorizontalOptions="Center" Spacing="40">
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="2">
+                            <Label Text="1350" FontFamily="MontserratSemiBold" FontSize="20" TextColor="White" HorizontalOptions="Center" />
+                            <Label Text="/2500 ККал" FontFamily="Montserrat" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="2">
+                            <Label Text="15000" FontFamily="MontserratSemiBold" FontSize="20" TextColor="White" HorizontalOptions="Center" />
+                            <Label Text="/15000 Шагов" FontFamily="Montserrat" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="2">
+                            <Label Text="5.3" FontFamily="MontserratSemiBold" FontSize="20" TextColor="White" HorizontalOptions="Center" />
+                            <Label Text="/10 Км" FontFamily="Montserrat" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                        </VerticalStackLayout>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Сон -->
+                <StackLayout Spacing="12">
+                    <Frame CornerRadius="40" Padding="24, 16" BorderColor="#F9E259" >
+                        <Frame.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#FCFF94" Offset="0.0" />
+                                <GradientStop Color="#FFEC7C" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Frame.Background>
+                        <Grid ColumnDefinitions="Auto,24 ,*,Auto">
+                            <Image Source="icon_sleep.png" WidthRequest="40" HeightRequest="40" Grid.Column="0" />
+                            <VerticalStackLayout Grid.Column="2" >
+                                <Label Text="Сон" FontFamily="MontserratBold" FontSize="16" TextColor="#333" />
+                                <Label Text="10ч 20 мин" FontSize="16" FontFamily="MontserratMedium" TextColor="#333" />
+                            </VerticalStackLayout>
+                            <Image Source="arrow1.png" WidthRequest="44" HeightRequest="24" Grid.Column="3" />
+                        </Grid>
+                    </Frame>
+
+
+                    <!-- Активность -->
+                    <Frame CornerRadius="40" Padding="24,16" BorderColor="#4FE477" >
+                        <Frame.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#A6F3BA" Offset="0.0" />
+                                <GradientStop Color="#4FE477" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Frame.Background>
+                        <Grid ColumnDefinitions="Auto,24 ,*,Auto">
+                            <Image Source="icon_steps.png" WidthRequest="40" HeightRequest="40" Grid.Column="0" />
+                            <VerticalStackLayout Grid.Column="2">
+                                <Label Text="Активность" FontFamily="MontserratBold" FontSize="16" TextColor="#333" />
+                                <Label Text="15000 шагов" FontSize="16" FontFamily="MontserratMedium" TextColor="#333" />
+                            </VerticalStackLayout>
+                            <Image Source="arrow1.png" WidthRequest="44" HeightRequest="24" Grid.Column="3" />
+                        </Grid>
+                    </Frame>
+
+                    <!-- Вода -->
+                    <Frame CornerRadius="40" Padding="24,16" BorderColor="#A9A8F6" >
+                        <Frame.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#C9D1FA" Offset="0.0" />
+                                <GradientStop Color="#A9A8F6" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Frame.Background>
+                        <Grid ColumnDefinitions="Auto,24 ,*,Auto">
+                            <Image Source="icon_water.png" WidthRequest="40" HeightRequest="40" Grid.Column="0" />
+                            <VerticalStackLayout Grid.Column="2">
+                                <Label Text="Вода" FontFamily="MontserratBold" FontSize="16" TextColor="#333" />
+                                <Label Text="1.5 л" FontSize="16" FontFamily="MontserratMedium" TextColor="#333" />
+                            </VerticalStackLayout>
+                            <Image Source="arrow1.png" WidthRequest="44" HeightRequest="24" Grid.Column="3" />
+                        </Grid>
+                    </Frame>
+
+                    <!-- Питание -->
+                    <Frame CornerRadius="40" Padding="24,16" BorderColor="#F971A4" >
+                        <Frame.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#FF94BC" Offset="0.0" />
+                                <GradientStop Color="#F971A4" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Frame.Background>
+                        <Grid ColumnDefinitions="Auto,24 ,*,Auto">
+                            <Image Source="icon_food.png" WidthRequest="40" HeightRequest="40" Grid.Column="0" />
+                            <VerticalStackLayout Grid.Column="2">
+                                <Label Text="Питание" FontFamily="MontserratBold" FontSize="16" TextColor="#333" />
+                                <Label Text="102 Ккал" FontSize="16" FontFamily="MontserratMedium" TextColor="#333" />
+                            </VerticalStackLayout>
+                            <Image Source="arrow1.png" WidthRequest="44" HeightRequest="24" Grid.Column="3" />
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+
+            </VerticalStackLayout>
+
+    </ScrollView>
+
+
+        <!-- Навигация -->
+        <Grid Grid.Row="1" BackgroundColor="#3E3E3E" HeightRequest="72" ColumnDefinitions="*,*,*">
+
+            <!-- Левая кнопка -->
+            <ImageButton Source="nav_sport.svg" Clicked="GoSports" BackgroundColor="Transparent" Grid.Column="0" Padding="24" HorizontalOptions="End"/>
+
+            <!--  кнопка по середине -->
+            <Frame HeightRequest="80"
+               WidthRequest="80"
+               CornerRadius="20"
+               Padding="0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Grid.Column="1"
+               BorderColor="Transparent"
+               Margin="0,-35,0,0">
+                <Frame.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#BC6FF1" Offset="0.0" />
+                        <GradientStop Color="#6C63FF" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <ImageButton Source="nav_home.svg"
+                 BackgroundColor="Transparent"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center" />
+                </Frame>
+
+            <!-- Правая кнопка -->
+            <ImageButton Source="nav_profile.svg" BackgroundColor="Transparent" Grid.Column="2" Padding="24" HorizontalOptions="Start"/>
+        </Grid>
+
+
+    </Grid>
+
+</ContentPage>
