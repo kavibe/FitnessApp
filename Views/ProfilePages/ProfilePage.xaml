@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace=FitnessApp.Views.ProfilePages"
+             x:Class="FitnessApp.Views.ProfilePages.ProfilePage"
+             Title="ProfilePage">
+    <Grid>
+        <Grid RowDefinitions="*, auto">
+            <ScrollView Grid.Row="0">
+                <VerticalStackLayout  Padding="20" Spacing="30">
+
+                    <Grid ColumnDefinitions="auto, * ,auto" ColumnSpacing="8">
+
+                        <ImageButton Source="profile_photo_base.svg" Grid.Column="0" HeightRequest="62"></ImageButton>
+                        
+                        <VerticalStackLayout Grid.Column="1" Spacing="-4">
+                            <Label Text="Имя пользователя" FontSize="12" FontFamily="MontserratMedium" TextColor="#8E8E8E" />
+                            <Label Text="Марк Логунов" FontSize="24" FontFamily="MontserratMedium"
+                            TextColor="#3e3e3e"/>
+                        </VerticalStackLayout>
+
+                        <ImageButton  VerticalOptions="Start" Source="icon_bell.png" Clicked="ToggleNotificationVisibility" BackgroundColor="Transparent" WidthRequest="27"
+                            HeightRequest="27" Grid.Column="2"/>
+
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*, auto">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="8" VerticalOptions="Start" Margin="0, 40">
+                            <Image Source="icon_gear_profile.svg" VerticalOptions="Center"></Image>
+                            <Label Text="Настройки" FontSize="16" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="Center"/>
+                        </HorizontalStackLayout>
+                        <Image Source="bear_main.png" Rotation="-90" HeightRequest="151" Grid.Column="1" HorizontalOptions="End" Margin="-50,30"></Image>
+                    </Grid>
+
+                    <VerticalStackLayout Spacing="16">
+                        <!--Достижения-->
+                        <Frame CornerRadius="40" HasShadow="True" HeightRequest="104" Padding="24,16,24,16" BorderColor="Transparent">
+                            <Frame.Shadow>
+                                <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.3" Radius="5"/>
+                            </Frame.Shadow>
+                            <Frame.Background>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                    <GradientStop Color="#C483E1" Offset="0.0" />
+                                    <GradientStop Color="#AE4CDA" Offset="1.0" />
+                                </LinearGradientBrush>
+                            </Frame.Background>
+
+                            <Grid ColumnDefinitions="*, auto" RowDefinitions="*, auto">
+                                <Image Source="icon_achives.svg" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                <Label Text="Достижения" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="End" Grid.Column="0" Grid.Row="1"></Label>
+                                <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                            </Grid>
+                        </Frame>
+
+                        <Grid ColumnDefinitions="*, 135" ColumnSpacing="16">
+                            <!--Чат с борисом-->
+                            <Frame CornerRadius="40" HasShadow="True" HeightRequest="124" Padding="24,16,24,16" Grid.Column="0" BorderColor="Transparent">
+                                <Frame.Shadow>
+                                    <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.3" Radius="5"/>
+                                </Frame.Shadow>
+                                <Frame.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                        <GradientStop Color="#FF94BC" Offset="0.0" />
+                                        <GradientStop Color="#E6739E" Offset="1.0" />
+                                    </LinearGradientBrush>
+                                </Frame.Background>
+
+                                <Grid ColumnDefinitions="*, auto" RowDefinitions="*, auto">
+                                    <Image Source="icon_chat" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                    <Label Text="Чат с Борисом" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="End" Grid.Column="0" Grid.Row="1" WidthRequest="112" HorizontalOptions="Start"></Label>
+                                        <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                </Grid>
+                            </Frame>
+                            
+                            <!--Кто ты сегодня?-->
+                            <Frame CornerRadius="40" HasShadow="True" HeightRequest="124" Padding="24,16,24,16" Grid.Column="1" BorderColor="Transparent">
+                                <Frame.Shadow>
+                                    <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.3" Radius="5"/>
+                                </Frame.Shadow>
+                                <Frame.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                        <GradientStop Color="#FBFF94" Offset="0.0" />
+                                        <GradientStop Color="#F4E27B" Offset="1.0" />
+                                    </LinearGradientBrush>
+                                </Frame.Background>
+
+                                <Grid ColumnDefinitions="*, auto" RowDefinitions="*, auto">
+                                    <Image Source="icon_smile.svg" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                    <Label Text="Кто ты сегодня?" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="End" Grid.Column="0" Grid.Row="1" WidthRequest="112" HorizontalOptions="Start"></Label>
+                                    <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </VerticalStackLayout>
+
+                    <HorizontalStackLayout Grid.Column="0" Spacing="8" VerticalOptions="Start" Margin="0, 40">
+                        <ImageButton Source="icon_exit.png" Clicked="GoLoginPage" HeightRequest="30" VerticalOptions="Center"></ImageButton>
+                        <Label Text="Выход" FontSize="16" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="Center">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="GoLoginPage" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+            </ScrollView>
+
+
+            <!-- Навигация -->
+            <Grid Grid.Row="1" BackgroundColor="#3E3E3E" HeightRequest="72" ColumnDefinitions="*,*,*">
+
+                <!-- Левая кнопка -->
+                <ImageButton Source="nav_home.svg" Clicked="GoHomePage" BackgroundColor="Transparent" Grid.Column="0" Padding="24" HorizontalOptions="End"/>
+
+                <!--  кнопка по середине -->
+                <Frame HeightRequest="80" WidthRequest="80" CornerRadius="20" Padding="0" HorizontalOptions="Center"
+                    VerticalOptions="Center" Grid.Column="1" BorderColor="Transparent" Margin="0,-35,0,0">
+                    <Frame.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#BC6FF1" Offset="0.0" />
+                            <GradientStop Color="#6C63FF" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Frame.Background>
+                    <ImageButton Source="nav_profile.svg" BackgroundColor="Transparent" HorizontalOptions="Center" VerticalOptions="Center" />
+                </Frame>
+
+                <!-- Правая кнопка -->
+                <ImageButton Source="nav_sport.svg" Clicked="GoSports" BackgroundColor="Transparent" Grid.Column="2" Padding="24" HorizontalOptions="Start"/>
+            </Grid>
+
+        </Grid>
+
+        <!--Затемнение-->
+        <BoxView Grid.RowSpan="2"
+        BackgroundColor="Black"
+        Opacity="0.7"
+        IsVisible="{Binding NotificationIsVisible}"
+        x:Name="Overlay"/>
+
+        <Frame Grid.RowSpan="2"
+       IsVisible="{Binding NotificationIsVisible}"
+       x:Name="PopupMasseges" 
+       CornerRadius="40" 
+       BackgroundColor="#FAF8F5" 
+       HorizontalOptions="Fill"
+       VerticalOptions="Start" 
+       Margin="20" 
+       Padding="16">
+            <Grid RowDefinitions="auto, auto, auto" RowSpacing="24">
+                <Grid ColumnDefinitions="auto, *, auto" Grid.Row="0">
+                    <ImageButton Source="icon_cross.svg" 
+                        Clicked="ToggleNotificationVisibility"
+                        Grid.Row="0" 
+                        HeightRequest="32" 
+                        HorizontalOptions="End" 
+                        Grid.Column="2"/>
+                    <Label Text="Уведомления" 
+                   Grid.Row="0" 
+                   VerticalOptions="Center" 
+                   FontSize="24" 
+                   FontFamily="MontserratMedium" 
+                   TextColor="#3e3e3e" 
+                   Grid.Column="0"/>
+                </Grid>
+                <ScrollView Orientation="Vertical" HeightRequest="400" Grid.Row="1">
+                    <VerticalStackLayout Spacing="24">
+                        <Label Text="Поздравляем! Вы достигли дневной нормы воды (2л). Так держать!" 
+                       FontSize="16" 
+                       FontFamily="Montserrat" 
+                       TextColor="#3e3e3e"/>
+                        <Label Text="Пора сделать глоток воды!" 
+                       FontSize="16" 
+                       FontFamily="Montserrat" 
+                       TextColor="#3e3e3e"/>
+                        <Label Text="Вы уже выпили 1.5л сегодня! Осталось всего 0.5л до дневной нормы" 
+                       FontSize="16" 
+                       FontFamily="Montserrat" 
+                       TextColor="#3e3e3e"/>
+                        <Label Text="Пора встать и сделать первый шаг за сегодня!" 
+                       FontSize="16" 
+                       FontFamily="Montserrat" 
+                       TextColor="#3e3e3e"/>
+                        <Label Text="Привет, Друг! Рад тебя видеть. Скорее устанавливай свои цели во сне, активностях, воде, питании и полетели!" 
+                       FontSize="16" 
+                       FontFamily="Montserrat" 
+                       TextColor="#3e3e3e"/>
+                    </VerticalStackLayout>
+                </ScrollView>
+                <Button CornerRadius="40" 
+                HeightRequest="56" 
+                Text="Очистить" 
+                TextColor="White" 
+                FontFamily="MontserratBold" 
+                FontSize="16" 
+                Grid.Row="2">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#BC6FF1" Offset="0.0"/>
+                            <GradientStop Color="#6C63FF" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </Frame>
+    </Grid>
+</ContentPage>

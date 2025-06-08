@@ -11,4 +11,9 @@ public partial class Sport2 : ContentPage
     {
         await Shell.Current.GoToAsync("///Sports");
     }
+
+    private async void GoNotReady(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///NotReady");
+    }
 }

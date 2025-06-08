@@ -43,7 +43,7 @@
                         </HorizontalStackLayout>
                     </HorizontalStackLayout>
 
-                    <Button CornerRadius="40" HeightRequest="56" Text="Начать тренировку" TextColor="White" FontFamily="MontserratMedium" FontSize="20">
+                    <Button CornerRadius="40" Clicked="GoNotReady" HeightRequest="56" Text="Начать тренировку" TextColor="White" FontFamily="MontserratMedium" FontSize="20">
                         <Button.Background>
                             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                                 <GradientStop Color="#BC6FF1" Offset="0.0" />

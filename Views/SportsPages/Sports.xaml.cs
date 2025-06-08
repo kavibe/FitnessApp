@@ -12,6 +12,11 @@ public partial class Sports : ContentPage
         await Shell.Current.GoToAsync("///HomePage");
     }
 
+    private async void GoProfile(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///ProfilePage");
+    }
+
     private async void GoSport1(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync("///Sport1");

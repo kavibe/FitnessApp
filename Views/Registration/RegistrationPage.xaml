@@ -3,6 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FitnessApp.Views.Registration.RegistrationPage"
              Title="RegistrationPage">
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0"
+                     EndPoint="1,1">
+            <GradientStop Color="#F3F1EE" Offset="0.0"/>
+            <GradientStop Color="#E1DED6" Offset="1.1"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    
     <AbsoluteLayout>
         <Image Source="house.png"
                AbsoluteLayout.LayoutBounds="0.5,0,500,880"

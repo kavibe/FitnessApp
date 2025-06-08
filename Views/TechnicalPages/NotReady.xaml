@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace=FitnessApp.Views.TechnicalsPages"
+             x:Class="FitnessApp.Views.TechnicalPages.NotReady"
+             Background="#FAF8F5">
+    <Grid RowDefinitions="auto, auto, auto, *" RowSpacing="56" Padding="20, 20, 20, 0">
+        <HorizontalStackLayout Grid.Row="0">
+            <ImageButton Source="back_icon.svg" Clicked="GoSports" HeightRequest="10" VerticalOptions="Center"/>
+            <Label Text="Назад" VerticalOptions="Center" FontSize="14" FontFamily="Montserrat" TextColor="#3e3e3e" >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="GoSports" />
+                </Label.GestureRecognizers>
+            </Label>
+        </HorizontalStackLayout>
+        <VerticalStackLayout Spacing="16" Grid.Row="1">
+            <Label Text="Данный раздел находится в стадии активной разработки." VerticalOptions="Center" FontSize="24" FontFamily="MontserratMedium" TextColor="#3e3e3e" />
+            <Label Text="В ближайшее время здесь появится новый функционал." VerticalOptions="Center" FontSize="16" FontFamily="MontserratMedium" TextColor="#3e3e3e" />
+        </VerticalStackLayout>
+        <Label Text="Благодарим вас за понимание и интерес к нашему приложению!" HorizontalTextAlignment="End" FontSize="14" FontFamily="Montserrat" TextColor="#3e3e3e" Grid.Row="2"/>
+        <VerticalStackLayout Grid.Row="3" VerticalOptions="End" Spacing="50">
+            <Frame CornerRadius="20" Padding="20" WidthRequest="300" HorizontalOptions="Start" BorderColor="#3e3e3e">
+                <Label Text="Можешь пока сделать пару подходов отжиманий — я считаю!" VerticalOptions="End" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" Grid.Row="2"/>
+            </Frame>
+            <Image Source="bear1.png" ></Image>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

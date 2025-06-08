@@ -5,6 +5,8 @@
     xmlns:viewsMainPages="clr-namespace:FitnessApp.Views.MainPages"
     xmlns:viewsRegistration="clr-namespace:FitnessApp.Views.Registration"
     xmlns:viewsSportsPages="clr-namespace:FitnessApp.Views.SportsPages"
+    xmlns:viewsTechnicalPages="clr-namespace:FitnessApp.Views.TechnicalPages"
+    xmlns:viewsProfilePages="clr-namespace:FitnessApp.Views.ProfilePages"
     x:Class="FitnessApp.AppShell">
 
     <ShellContent
@@ -67,8 +69,12 @@
         ContentTemplate="{DataTemplate viewsSportsPages:Sport6}"
         Route="Sport6" />
 
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsTechnicalPages:NotReady}"
+        Route="NotReady" />
 
-
-
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsProfilePages:ProfilePage}"
+        Route="ProfilePage" />
 
 </Shell>

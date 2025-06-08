@@ -2,8 +2,14 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FitnessApp.Views.Registration.LoginPage"
-             Title="LoginPage"
-             BackgroundColor="#fff3f1">
+             Title="LoginPage">
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0"
+                     EndPoint="1,1">
+            <GradientStop Color="#F3F1EE" Offset="0.0"/>
+            <GradientStop Color="#E1DED6" Offset="1.1"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
 
     <AbsoluteLayout>
         <Image Source="house.png"

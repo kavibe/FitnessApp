@@ -235,7 +235,7 @@
             </Frame>
 
             <!-- Правая кнопка -->
-            <ImageButton Source="nav_profile.svg" BackgroundColor="Transparent" Grid.Column="2" Padding="24" HorizontalOptions="Start"/>
+            <ImageButton Source="nav_profile.svg" Clicked="GoProfile" BackgroundColor="Transparent" Grid.Column="2" Padding="24" HorizontalOptions="Start"/>
         </Grid>
     </Grid>
 </ContentPage>
