@@ -6,6 +6,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\bears.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\bearsmilimg.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\bear_main.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\boywithgantele.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\cuida_login_outline.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\fitness_body.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\gantele.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\hello.png
@@ -14,6 +15,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\house.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\icon_back.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\icon_bell.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\icon_calendar.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\icon_exit1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\icon_food.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\icon_left.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\icon_right.png
@@ -28,6 +30,9 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\purpleform.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\purpleform2.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\purpleform3.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\tale.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\who_ypu_are_1.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\who_ypu_are_2.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\who_ypu_are_3.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\back_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\framedontlook.png

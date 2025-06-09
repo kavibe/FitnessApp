@@ -19,6 +19,7 @@ public static class MauiProgram
                 fonts.AddFont("Montserrat-SemiBold.ttf", "MontserratSemiBold");
                 fonts.AddFont("Montserrat-Light.ttf", "MontserratLight");
                 fonts.AddFont("NerkoOne-Regular.ttf", "NerkoOne");
+                fonts.AddFont("Montserrat-Black.ttf", "MontserratBlack");
             });
 
 #if DEBUG

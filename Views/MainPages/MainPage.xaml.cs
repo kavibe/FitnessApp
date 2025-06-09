@@ -26,4 +26,9 @@ public partial class MainPage : ContentPage
     {
         await Shell.Current.GoToAsync("///ProfilePage");
     }
+
+    private async void GoWaterPage(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///WaterPage");
+    }
 }

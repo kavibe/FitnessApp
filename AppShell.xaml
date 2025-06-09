@@ -7,6 +7,7 @@
     xmlns:viewsSportsPages="clr-namespace:FitnessApp.Views.SportsPages"
     xmlns:viewsTechnicalPages="clr-namespace:FitnessApp.Views.TechnicalPages"
     xmlns:viewsProfilePages="clr-namespace:FitnessApp.Views.ProfilePages"
+    xmlns:viewsProgressPages="clr-namespace:FitnessApp.Views.ProgressPages"
     x:Class="FitnessApp.AppShell">
 
     <ShellContent
@@ -77,4 +78,15 @@
         ContentTemplate="{DataTemplate viewsProfilePages:ProfilePage}"
         Route="ProfilePage" />
 
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsTechnicalPages:SettingsPage}"
+        Route="SettingsPage" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsTechnicalPages:RulesPage}"
+        Route="RulesPage" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsProgressPages:WaterPage}"
+        Route="WaterPage" />
 </Shell>

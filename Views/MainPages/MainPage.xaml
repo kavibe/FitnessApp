@@ -247,22 +247,30 @@
                     </Frame>
 
                     <!-- Вода -->
-                    <Frame CornerRadius="40" Padding="24,16" BorderColor="#A9A8F6" >
-                        <Frame.Background>
-                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                                <GradientStop Color="#C9D1FA" Offset="0.0" />
-                                <GradientStop Color="#A9A8F6" Offset="1.0" />
-                            </LinearGradientBrush>
-                        </Frame.Background>
-                        <Grid ColumnDefinitions="Auto,24 ,*,Auto">
-                            <Image Source="icon_water.png" WidthRequest="40" HeightRequest="40" Grid.Column="0" />
-                            <VerticalStackLayout Grid.Column="2">
-                                <Label Text="Вода" FontFamily="MontserratBold" FontSize="16" TextColor="#333" />
-                                <Label Text="1.5 л" FontSize="16" FontFamily="MontserratMedium" TextColor="#333" />
-                            </VerticalStackLayout>
-                            <Image Source="arrow1.png" WidthRequest="44" HeightRequest="24" Grid.Column="3" />
-                        </Grid>
-                    </Frame>
+                    <Grid>
+                        <Frame CornerRadius="40" Padding="24,16" BorderColor="#A9A8F6" >
+                            <Frame.Background>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                    <GradientStop Color="#C9D1FA" Offset="0.0" />
+                                    <GradientStop Color="#A9A8F6" Offset="1.0" />
+                                </LinearGradientBrush>
+                            </Frame.Background>
+                            <Grid ColumnDefinitions="Auto,24 ,*,Auto">
+                                <Image Source="icon_water.png" WidthRequest="40" HeightRequest="40" Grid.Column="0" />
+                                <VerticalStackLayout Grid.Column="2">
+                                    <Label Text="Вода" FontFamily="MontserratBold" FontSize="16" TextColor="#333" />
+                                    <Label Text="1.5 л" FontSize="16" FontFamily="MontserratMedium" TextColor="#333" />
+                                </VerticalStackLayout>
+                                <Image Source="arrow1.png" WidthRequest="44" HeightRequest="24" Grid.Column="3" />
+                            </Grid>
+                        </Frame>
+
+                        <Button 
+                            BackgroundColor="Transparent" 
+                            BorderWidth="0" 
+                            Clicked="GoWaterPage" 
+                            CornerRadius="40" />
+                    </Grid>
 
                     <!-- Питание -->
                     <Frame CornerRadius="40" Padding="24,16" BorderColor="#F971A4" >

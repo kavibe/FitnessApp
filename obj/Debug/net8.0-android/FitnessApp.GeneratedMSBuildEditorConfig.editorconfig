@@ -65,6 +65,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.ProfilePa
 build_metadata.AdditionalFiles.TargetPath = Views\ProfilePages\ProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProfilePages\ProfilePage.xaml
 
+[C:/C\# MAUI APP/FitnessApp/Views/ProgressPages/WaterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.ProgressPages.WaterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProgressPages\WaterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProgressPages\WaterPage.xaml
+
 [C:/C\# MAUI APP/FitnessApp/Views/Registration/BearHelloPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.Registration.BearHelloPage.xaml
@@ -154,3 +160,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.TechnicalPages.NotReady.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TechnicalPages\NotReady.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\TechnicalPages\NotReady.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/TechnicalPages/RulesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.TechnicalPages.RulesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TechnicalPages\RulesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TechnicalPages\RulesPage.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/TechnicalPages/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.TechnicalPages.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TechnicalPages\SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TechnicalPages\SettingsPage.xaml

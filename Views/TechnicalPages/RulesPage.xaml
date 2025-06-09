@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace=FitnessApp.Views.TechnicalsPages"
+             x:Class="FitnessApp.Views.TechnicalPages.RulesPage"
+             Background="#FAF8F5">
+    <Grid RowDefinitions="auto, auto, *" Padding="20" RowSpacing="24">
+        <!-- Шапка -->
+        <Grid ColumnDefinitions="auto, *, auto" Grid.Row="0">
+            <HorizontalStackLayout HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" VerticalOptions="Start" Padding="0, 8">
+                <ImageButton Source="back_icon.svg" Clicked="GoSettingsPage" HeightRequest="10" VerticalOptions="Center"/>
+                <Label Text="Назад" VerticalOptions="Center" FontSize="14" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="GoSettingsPage" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+            <Label Text="Правила использования" Grid.Column="2" WidthRequest="200" HorizontalTextAlignment="End"  VerticalOptions="Start" FontSize="24" FontFamily="MontserratMedium" TextColor="#3e3e3e" HorizontalOptions="End"/>
+        </Grid>
+
+        <Label Text="1. Какие данные мы собираем:&#10;  • Личная информация: имя, пол, email.&#10;
+ • Данные здоровья: активность, показатели тренировок.&#10;
+ • Технические данные: IP-адрес, тип устройства, версия ОС.&#10; &#10;
+
+2. Как используем данные:&#10;
+ • Для персонализации тренировок и рекомендаций.&#10;
+ • Для улучшения работы приложения.&#10;
+ • Для синхронизации с календарем/напоминаниями.&#10;
+ • Для рекомендации друзьям.&#10;&#10;
+
+3. Защита данных:&#10;
+ • Данные хранятся на защищенных серверах.&#10;
+ • Передача информации шифруется (SSL/TLS).&#10;
+ • Доступ третьих лиц — только с вашего согласия.&#10;&#10;
+
+4. Ваши права:&#10;
+ • Запросить удаление данных (заполните форму в Техподдержке).&#10;
+ • Отозвать согласие на обработку." VerticalOptions="Center" FontSize="16"  Grid.Row="1" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start"/>
+
+        <VerticalStackLayout Spacing="8" HorizontalOptions="Center"  Grid.Row="2" VerticalOptions="End">
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label Text="Вопросы?" FontSize="14" FontFamily="MontserratMedium" TextColor="#3e3e3e"></Label>
+                <Label Text=" Заполните форму в" FontSize="14" FontFamily="MontserratLight" TextColor="#3e3e3e"></Label>
+                <Label Text=" Техподдержке" FontSize="14" FontFamily="MontserratMedium" TextColor="#645DCA"></Label>
+            </HorizontalStackLayout>
+            <Label Text="Последнее обновление: 25.05.2025" HorizontalOptions="Center" FontSize="14" FontFamily="MontserratLight" TextColor="#3e3e3e"></Label>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

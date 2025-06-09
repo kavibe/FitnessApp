@@ -30,4 +30,9 @@ public partial class ProfilePage : ContentPage
     {
         await Shell.Current.GoToAsync("///LoginPage");
     }
+
+    private async void GoSettingsPage(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///SettingsPage");
+    }
 }
