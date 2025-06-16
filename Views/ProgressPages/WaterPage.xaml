@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:views="clr-namespace=FitnessApp.Views.ProgressPages"
              x:Class="FitnessApp.Views.ProgressPages.WaterPage"
-             Background="#FAF8F5">
+             BackgroundColor="#FAF8F5"
+             Title="Вода">
+
     <Grid>
+        <!-- Основная сетка -->
         <Grid Padding="20, 20, 20, 0" RowDefinitions="auto, auto, *, auto" RowSpacing="56">
             <!-- Шапка -->
             <Grid ColumnDefinitions="auto, *, auto" RowDefinitions="auto, auto" RowSpacing="24" Grid.Row="0">
@@ -17,23 +19,22 @@
                     </Label>
                 </HorizontalStackLayout>
                 <Label Text="Вода" Grid.Column="2" Grid.Row="0" VerticalOptions="Center" FontSize="24" FontFamily="MontserratMedium" TextColor="#3e3e3e" HorizontalOptions="End"/>
-
                 <VerticalStackLayout Grid.Row="1" Grid.Column="0" Spacing="8">
-                    <Label Text="Сегодня: 20.06.2025" TextColor="#8E8E8E" FontSize="12" FontFamily="MontserratMedium"></Label>
-                    <Label Text="Вода – лучший напиток для твоего тела!" TextColor="#3e3e3e" FontSize="20" FontFamily="MontserratMedium" WidthRequest="270"></Label>
+                    <Label Text="Сегодня: 20.06.2025" TextColor="#8E8E8E" FontSize="12" FontFamily="MontserratMedium"/>
+                    <Label Text="Вода – лучший напиток для твоего тела!" TextColor="#3e3e3e" FontSize="20" FontFamily="MontserratMedium" WidthRequest="270"/>
                 </VerticalStackLayout>
-
-                <ImageButton Source="icon_gear.svg" Clicked="ToggleAddWaterLimitVisibility" HeightRequest="32" Grid.Column="2" Grid.Row="1" VerticalOptions="Center"></ImageButton>
+                <ImageButton Source="icon_gear.svg" Clicked="ToggleAddWaterLimitVisibility" HeightRequest="32" Grid.Column="2" Grid.Row="1" VerticalOptions="Center"/>
             </Grid>
 
             <!-- Круг с водой -->
-            <Image Source="water.svg" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center"></Image>
+            <Image Source="water.svg" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+
             <HorizontalStackLayout Grid.Row="1" HorizontalOptions="Center" Spacing="8">
-                <Label Text="1.5" FontSize="80" FontFamily="NerkoOne" TextColor="#4e4e4e" Margin="0, 32"></Label>
-                <Label Text="/3" FontSize="40" FontFamily="NerkoOne" TextColor="#4e4e4e" Margin="0, 68"></Label>
+                <Label Text="{Binding CurrentWaterVolume}" FontSize="80" FontFamily="NerkoOne" TextColor="#4e4e4e" Margin="0, 32"/>
+                <Label Text="{Binding WaterLimit, StringFormat='/{0}'}" FontSize="40" FontFamily="NerkoOne" TextColor="#4e4e4e" Margin="0, 68"/>
             </HorizontalStackLayout>
 
-            <ImageButton Source="icon_plus.svg" Clicked="ToggleAddWaterVisibility" HeightRequest="68" Grid.Row="1" VerticalOptions="End" Margin="32"></ImageButton>
+            <ImageButton Source="icon_plus.svg" Clicked="ToggleAddWaterVisibility" HeightRequest="68" Grid.Row="1" VerticalOptions="End" Margin="32"/>
 
             <!-- Мишка с текстом -->
             <VerticalStackLayout Grid.Row="3" Spacing="16">
@@ -41,100 +42,42 @@
                     <Frame.Shadow>
                         <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.4" Radius="10"/>
                     </Frame.Shadow>
-                    <Label Text="Каждый глоток воды – шаг к здоровью. Ты на верном пути!" HorizontalTextAlignment="End" VerticalOptions="End" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" Grid.Row="2"/>
+                    <Label Text="Каждый глоток воды – шаг к здоровью. Ты на верном пути!" HorizontalTextAlignment="End" VerticalOptions="End" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e"/>
                 </Frame>
-                <Image Source="bear_main.png" HorizontalOptions="Start"></Image>
+                <Image Source="bear_main.png" HorizontalOptions="Start"/>
             </VerticalStackLayout>
         </Grid>
 
-        <!--Затемнение-->
+        <!-- Затемнение -->
         <BoxView Grid.RowSpan="2"
-             BackgroundColor="Black"
-             Opacity="0.7"
-             IsVisible="{Binding DimmingIsVisible}"
-             x:Name="Overlay"/>
+                 BackgroundColor="Black"
+                 Opacity="0.7"
+                 IsVisible="False"
+                 x:Name="Overlay"/>
 
-        <!-- Попап Настройки-->
+        <!-- Попап Настройки -->
         <Frame Grid.Row="1"
-            IsVisible="{Binding AddWaterLimitIsVisible}"
-            x:Name="PopupFrame"
-            CornerRadius="40"
-            BackgroundColor="#FAF8F5"
-            HorizontalOptions="Fill"
-            VerticalOptions="Center"
-            Margin="20"
-            Padding="16">
+               IsVisible="{Binding AddWaterLimitIsVisible}"
+               x:Name="PopupFrame"
+               CornerRadius="40"
+               BackgroundColor="#FAF8F5"
+               HorizontalOptions="Fill"
+               VerticalOptions="Center"
+               Margin="20"
+               Padding="16">
             <Grid RowDefinitions="auto, auto" RowSpacing="16">
-                <ImageButton Source="icon_cross.svg" Clicked="ToggleAddWaterLimitVisibility" Grid.Row="0" HeightRequest="32" HorizontalOptions="End"></ImageButton>
+                <ImageButton Source="icon_cross.svg" Clicked="ToggleAddWaterLimitVisibility" Grid.Row="0" HeightRequest="32" HorizontalOptions="End"/>
                 <VerticalStackLayout Grid.Row="1" Spacing="24">
-                    <!-- Суточная норма с вводом -->
+                    <!-- Суточная норма -->
                     <Grid ColumnDefinitions="auto, *, auto">
-                        <Label Text="Суточная норма воды:" Grid.Column="0" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium"
-                            HorizontalOptions="Center"  VerticalOptions="Center"></Label>
-                        <Frame CornerRadius="20" BackgroundColor="White" Padding="0" HasShadow="True"
-                            HeightRequest="40" Grid.Column="2"  VerticalOptions="Center" BorderColor="Transparent" Margin="4" WidthRequest="99">
-                            <Frame.Shadow>
-                                <Shadow Brush="#4E4E4E" Offset="2,2" Opacity="0.35" Radius="4"/>
-                            </Frame.Shadow>
-                            <Entry x:Name="WaterNormEntry" Placeholder="л" BackgroundColor="Transparent" Keyboard="Numeric"
-                                   TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" HorizontalTextAlignment="End" 
-                                   Margin="20,-4" VerticalOptions="End"/>
+                        <Label Text="Суточная норма воды:" Grid.Column="0" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                        <Frame CornerRadius="20" BackgroundColor="White" Padding="0" HasShadow="True" HeightRequest="40" Grid.Column="2" VerticalOptions="Center" BorderColor="Transparent" Margin="4" WidthRequest="99">
+                            <Entry x:Name="WaterNormEntry" Placeholder="л" BackgroundColor="Transparent" Keyboard="Numeric" TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" HorizontalTextAlignment="End" Margin="20,-4" VerticalOptions="End"/>
                         </Frame>
                     </Grid>
 
-                    <Label Text="Добавить напоминание выпить воды:" Grid.Column="0" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium"
-                        HorizontalOptions="Center"  VerticalOptions="Center"></Label>
-
-                    <!--Добавить напоминание-->
-                    <Grid ColumnDefinitions="auto, auto" ColumnSpacing="16" HorizontalOptions="Center">
-                        <Frame CornerRadius="20" BackgroundColor="White" Padding="0" HasShadow="True" Grid.Column="0"
-                        HeightRequest="40" VerticalOptions="Center" BorderColor="Transparent" Margin="4" WidthRequest="99">
-                            <Frame.Shadow>
-                                <Shadow Brush="#4E4E4E" Offset="2,2" Opacity="0.35" Radius="4"/>
-                            </Frame.Shadow>
-
-                            <TimePicker x:Name="WaterTimePicker" Format="HH:mm" Time="09:30" Grid.Column="0" TextColor="#8E8E8E" Margin="20, -4"
-                                    FontSize="16" FontFamily="MontserratSemiBold" BackgroundColor="Transparent" />
-                        </Frame>
-
-                        <Button Text="+ Добавить" Grid.Column="2" TextColor="#8A83E1" Background="Transparent" FontFamily="MontserratMedium" 
-                                FontSize="16"></Button>
-                    </Grid>
-
-                    <ScrollView HeightRequest="150">
-                        <VerticalStackLayout Spacing="12">
-                            <VerticalStackLayout Spacing="12">
-                                <Grid ColumnDefinitions="auto, *, auto">
-                                    <ImageButton Source="icon_delete.svg" HeightRequest="17" Grid.Column="0" VerticalOptions="Center"></ImageButton>
-                                    <Label Text="9:30" Grid.Column="2" FontFamily="MontserratMedium" FontSize="14" VerticalOptions="Center" TextColor="#3e3e3e"></Label>
-                                </Grid>
-                                <Image Source="line.svg" WidthRequest="329"></Image>
-                            </VerticalStackLayout>
-                            <VerticalStackLayout Spacing="12">
-                                <Grid ColumnDefinitions="auto, *, auto">
-                                    <ImageButton Source="icon_delete.svg" HeightRequest="17" Grid.Column="0" VerticalOptions="Center"></ImageButton>
-                                    <Label Text="9:30" Grid.Column="2" FontFamily="MontserratMedium" FontSize="14" VerticalOptions="Center" TextColor="#3e3e3e"></Label>
-                                </Grid>
-                                <Image Source="line.svg" WidthRequest="329"></Image>
-                            </VerticalStackLayout>
-                            <VerticalStackLayout Spacing="12">
-                                <Grid ColumnDefinitions="auto, *, auto">
-                                    <ImageButton Source="icon_delete.svg" HeightRequest="17" Grid.Column="0" VerticalOptions="Center"></ImageButton>
-                                    <Label Text="9:30" Grid.Column="2" FontFamily="MontserratMedium" FontSize="14" VerticalOptions="Center" TextColor="#3e3e3e"></Label>
-                                </Grid>
-                                <Image Source="line.svg" WidthRequest="329"></Image>
-                            </VerticalStackLayout>
-                            <VerticalStackLayout Spacing="12">
-                                <Grid ColumnDefinitions="auto, *, auto">
-                                    <ImageButton Source="icon_delete.svg" HeightRequest="17" Grid.Column="0" VerticalOptions="Center"></ImageButton>
-                                    <Label Text="9:30" Grid.Column="2" FontFamily="MontserratMedium" FontSize="14" VerticalOptions="Center" TextColor="#3e3e3e"></Label>
-                                </Grid>
-                                <Image Source="line.svg" WidthRequest="329"></Image>
-                            </VerticalStackLayout>
-                        </VerticalStackLayout>
-                    </ScrollView>
-
-                    <Button CornerRadius="40" HeightRequest="56" Text="Сохранить" TextColor="White" FontFamily="MontserratBold" FontSize="16">
+                    <!-- Кнопка сохранить -->
+                    <Button Text="Сохранить" Clicked="SaveWaterLimit_Clicked" TextColor="White" FontFamily="MontserratBold" FontSize="16" CornerRadius="40" HeightRequest="56">
                         <Button.Background>
                             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                                 <GradientStop Color="#BC6FF1" Offset="0.0" />
@@ -146,71 +89,42 @@
             </Grid>
         </Frame>
 
-
-        <!-- Попап с добавлением воды -->
-        <Frame Grid.Row="1" IsVisible="{Binding AddWaterIsVisible}" x:Name="PopupFrame2" CornerRadius="40" BackgroundColor="#FAF8F5" HorizontalOptions="Fill"
-            VerticalOptions="Center" Margin="20" Padding="16">
-            
+        <!-- Попап Добавления воды -->
+        <Frame Grid.Row="1"
+               IsVisible="{Binding AddWaterIsVisible}"
+               x:Name="PopupFrame2"
+               CornerRadius="40"
+               BackgroundColor="#FAF8F5"
+               HorizontalOptions="Fill"
+               VerticalOptions="Center"
+               Margin="20"
+               Padding="16">
             <Grid RowDefinitions="auto, auto" RowSpacing="16">
-                <ImageButton Source="icon_cross.svg" Clicked="ToggleAddWaterVisibility" Grid.Row="0" HeightRequest="32" HorizontalOptions="End"></ImageButton>
+                <ImageButton Source="icon_cross.svg" Clicked="ToggleAddWaterVisibility" Grid.Row="0" HeightRequest="32" HorizontalOptions="End"/>
                 <VerticalStackLayout Grid.Row="1" Spacing="20">
-                    <Label Text="Быстрый ввод:" Grid.Column="0" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium"
-                        HorizontalOptions="Start"  VerticalOptions="Center"></Label>
+                    <Label Text="Быстрый ввод:" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium"/>
 
-                    <!-- Скролл с добавленим воды -->
+                    <!-- Быстрые кнопки -->
                     <ScrollView Orientation="Horizontal" HeightRequest="50">
-                        <HorizontalStackLayout Spacing="12" >
-                            <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Transparent" >
-                                <Frame.Shadow>
-                                    <Shadow Brush="#4E4E4E" Offset="2,2" Opacity="0.35" Radius="4"/>
-                                </Frame.Shadow>
-                                <Button Text="0.25л" Padding="24, 12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White" VerticalOptions="Center" BorderColor="Transparent" ></Button>
-                            </Frame>
-                            <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Transparent">
-                                <Frame.Shadow>
-                                    <Shadow Brush="#4E4E4E" Offset="2,2" Opacity="0.35" Radius="4"/>
-                                </Frame.Shadow>
-                                <Button Text="0.3л" Padding="24, 12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White" VerticalOptions="Center" BorderColor="Transparent" ></Button>
-                            </Frame>
-                            <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Transparent">
-                                <Frame.Shadow>
-                                    <Shadow Brush="#4E4E4E" Offset="2,2" Opacity="0.35" Radius="4"/>
-                                </Frame.Shadow>
-                                <Button Text="0.5л" Padding="24, 12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White" VerticalOptions="Center" BorderColor="Transparent" ></Button>
-                            </Frame>
-                                <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Transparent">
-                                    <Frame.Shadow>
-                                        <Shadow Brush="#4E4E4E" Offset="2,2" Opacity="0.35" Radius="4"/>
-                                    </Frame.Shadow>
-                                <Button Text="0.7л" Padding="24, 12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White" VerticalOptions="Center" BorderColor="Transparent" ></Button>
-                                </Frame>
-                            <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Transparent">
-                                <Frame.Shadow>
-                                    <Shadow Brush="#4E4E4E" Offset="2,2" Opacity="0.35" Radius="4"/>
-                                </Frame.Shadow>
-                                <Button Text="1л" Padding="24, 12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White" VerticalOptions="Center" BorderColor="Transparent" ></Button>
-                            </Frame>
-
+                        <HorizontalStackLayout Spacing="12">
+                            <Button Text="0.25л" Clicked="AddQuickWater_025" Padding="24,12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White"/>
+                            <Button Text="0.3л" Clicked="AddQuickWater_03" Padding="24,12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White"/>
+                            <Button Text="0.5л" Clicked="AddQuickWater_05" Padding="24,12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White"/>
+                            <Button Text="0.7л" Clicked="AddQuickWater_07" Padding="24,12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White"/>
+                            <Button Text="1л" Clicked="AddQuickWater_1" Padding="24,12" FontFamily="MontserratMedium" TextColor="#3e3e3e" CornerRadius="50" BackgroundColor="White"/>
                         </HorizontalStackLayout>
                     </ScrollView>
 
                     <!-- Ручной ввод -->
                     <Grid ColumnDefinitions="auto, *, auto">
-                        <Label Text="Ручной ввод:" Grid.Column="0" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium"
-                    HorizontalOptions="Center"  VerticalOptions="Center"></Label>
-                        <Frame CornerRadius="20" BackgroundColor="White" Padding="0" HasShadow="True"
-                    HeightRequest="40" Grid.Column="2"  VerticalOptions="Center" BorderColor="Transparent" Margin="4" WidthRequest="99">
-                            <Frame.Shadow>
-                                <Shadow Brush="#4E4E4E" Offset="2,2" Opacity="0.35" Radius="4"/>
-                            </Frame.Shadow>
-                            <Entry x:Name="WatNormEntry" Placeholder="л" BackgroundColor="Transparent" Keyboard="Numeric"
-                           TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" HorizontalTextAlignment="End" 
-                           Margin="20,-4" VerticalOptions="End"/>
+                        <Label Text="Ручной ввод:" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                        <Frame CornerRadius="20" BackgroundColor="White" Padding="0" HasShadow="True" HeightRequest="40" Grid.Column="2" VerticalOptions="Center" BorderColor="Transparent" Margin="4" WidthRequest="99">
+                            <Entry x:Name="WatNormEntry" Placeholder="л" BackgroundColor="Transparent" Keyboard="Numeric" TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" HorizontalTextAlignment="End" Margin="20,-4" VerticalOptions="End"/>
                         </Frame>
                     </Grid>
 
-                    <!--Кнопка-->
-                    <Button CornerRadius="40" HeightRequest="56" Text="Добавить" TextColor="White" FontFamily="MontserratBold" FontSize="16">
+                    <!-- Кнопка добавить -->
+                    <Button Text="Добавить" Clicked="AddCustomWater_Clicked" TextColor="White" FontFamily="MontserratBold" FontSize="16" CornerRadius="40" HeightRequest="56">
                         <Button.Background>
                             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                                 <GradientStop Color="#BC6FF1" Offset="0.0" />
@@ -221,5 +135,7 @@
                 </VerticalStackLayout>
             </Grid>
         </Frame>
+
+        
     </Grid>
 </ContentPage>
