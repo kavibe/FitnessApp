@@ -9,8 +9,12 @@
             <!-- Шапка -->
             <Grid ColumnDefinitions="auto, *, auto" RowDefinitions="auto, auto" RowSpacing="24" Grid.Row="0">
                 <HorizontalStackLayout HorizontalOptions="Start" Grid.Column="0" Grid.Row="0">
-                    <ImageButton Source="back_icon.svg" HeightRequest="10" VerticalOptions="Center"/>
-                    <Label Text="Назад" VerticalOptions="Center" FontSize="14" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start"/>
+                    <ImageButton Source="back_icon.svg" Clicked="GoMainPage" HeightRequest="10" VerticalOptions="Center"/>
+                    <Label Text="Назад" VerticalOptions="Center" FontSize="14" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoMainPage" />
+                        </Label.GestureRecognizers>
+                    </Label>
                 </HorizontalStackLayout>
                 <Label Text="Вода" Grid.Column="2" Grid.Row="0" VerticalOptions="Center" FontSize="24" FontFamily="MontserratMedium" TextColor="#3e3e3e" HorizontalOptions="End"/>
 
@@ -19,7 +23,7 @@
                     <Label Text="Вода – лучший напиток для твоего тела!" TextColor="#3e3e3e" FontSize="20" FontFamily="MontserratMedium" WidthRequest="270"></Label>
                 </VerticalStackLayout>
 
-                <ImageButton Source="icon_gear.svg" HeightRequest="32" Grid.Column="2" Grid.Row="1" VerticalOptions="Center"></ImageButton>
+                <ImageButton Source="icon_gear.svg" Clicked="ToggleAddWaterLimitVisibility" HeightRequest="32" Grid.Column="2" Grid.Row="1" VerticalOptions="Center"></ImageButton>
             </Grid>
 
             <!-- Круг с водой -->
@@ -29,7 +33,7 @@
                 <Label Text="/3" FontSize="40" FontFamily="NerkoOne" TextColor="#4e4e4e" Margin="0, 68"></Label>
             </HorizontalStackLayout>
 
-            <ImageButton Source="icon_plus.svg" HeightRequest="68" Grid.Row="1" VerticalOptions="End" Margin="32"></ImageButton>
+            <ImageButton Source="icon_plus.svg" Clicked="ToggleAddWaterVisibility" HeightRequest="68" Grid.Row="1" VerticalOptions="End" Margin="32"></ImageButton>
 
             <!-- Мишка с текстом -->
             <VerticalStackLayout Grid.Row="3" Spacing="16">
@@ -47,12 +51,12 @@
         <BoxView Grid.RowSpan="2"
              BackgroundColor="Black"
              Opacity="0.7"
-             IsVisible="True"
+             IsVisible="{Binding DimmingIsVisible}"
              x:Name="Overlay"/>
 
         <!-- Попап Настройки-->
         <Frame Grid.Row="1"
-            IsVisible="False"
+            IsVisible="{Binding AddWaterLimitIsVisible}"
             x:Name="PopupFrame"
             CornerRadius="40"
             BackgroundColor="#FAF8F5"
@@ -61,7 +65,7 @@
             Margin="20"
             Padding="16">
             <Grid RowDefinitions="auto, auto" RowSpacing="16">
-                <ImageButton Source="icon_cross.svg" Grid.Row="0" HeightRequest="32" HorizontalOptions="End"></ImageButton>
+                <ImageButton Source="icon_cross.svg" Clicked="ToggleAddWaterLimitVisibility" Grid.Row="0" HeightRequest="32" HorizontalOptions="End"></ImageButton>
                 <VerticalStackLayout Grid.Row="1" Spacing="24">
                     <!-- Суточная норма с вводом -->
                     <Grid ColumnDefinitions="auto, *, auto">
@@ -144,11 +148,11 @@
 
 
         <!-- Попап с добавлением воды -->
-        <Frame Grid.Row="1" IsVisible="True" x:Name="PopupFrame2" CornerRadius="40" BackgroundColor="#FAF8F5" HorizontalOptions="Fill"
+        <Frame Grid.Row="1" IsVisible="{Binding AddWaterIsVisible}" x:Name="PopupFrame2" CornerRadius="40" BackgroundColor="#FAF8F5" HorizontalOptions="Fill"
             VerticalOptions="Center" Margin="20" Padding="16">
             
             <Grid RowDefinitions="auto, auto" RowSpacing="16">
-                <ImageButton Source="icon_cross.svg" Grid.Row="0" HeightRequest="32" HorizontalOptions="End"></ImageButton>
+                <ImageButton Source="icon_cross.svg" Clicked="ToggleAddWaterVisibility" Grid.Row="0" HeightRequest="32" HorizontalOptions="End"></ImageButton>
                 <VerticalStackLayout Grid.Row="1" Spacing="20">
                     <Label Text="Быстрый ввод:" Grid.Column="0" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium"
                         HorizontalOptions="Start"  VerticalOptions="Center"></Label>

@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\C# MAUI APP\\FitnessApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\mainpages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\mainpages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\progresspages\\kkal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\progresspages\\kkal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\progresspages\\kkal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\progresspages\\kkal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\progresspages\\activity.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\progresspages\\activity.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\progresspages\\activity.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\progresspages\\activity.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\progresspages\\sleeping.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\progresspages\\sleeping.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\progresspages\\sleeping.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\progresspages\\sleeping.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\progresspages\\waterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\progresspages\\waterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\mainpages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\mainpages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\progresspages\\waterpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\progresspages\\waterpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\mainpages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\mainpages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\mainpages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\mainpages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\profilepages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\profilepages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\profilepages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\profilepages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\technicalpages\\notready.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\technicalpages\\notready.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\technicalpages\\rulespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\technicalpages\\rulespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\technicalpages\\rulespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\technicalpages\\rulespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\technicalpages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -51,20 +59,56 @@
       "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\technicalpages\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\profilepages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\profilepages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sport2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sport2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\profilepages\\whoyouaretodaypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\profilepages\\whoyouaretodaypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\profilepages\\whoyouaretodaypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\profilepages\\whoyouaretodaypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\technicalpages\\notready.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\technicalpages\\notready.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\technicalpages\\notready.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\technicalpages\\notready.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sport1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sport1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sport1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sport1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\technicalpages\\rulespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\technicalpages\\rulespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\technicalpages\\rulespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\technicalpages\\rulespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sport3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -110,14 +154,6 @@
       "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sport3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sport2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sport2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sport1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sport1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sport5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sport5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -128,10 +164,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sport4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sport4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\sportspages\\sport1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|solutionrelative:views\\sportspages\\sport1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACFD8A49-2EC4-4D45-AEC2-9F721B3900EF}|FitnessApp.csproj|c:\\c# maui app\\fitnessapp\\views\\registration\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -185,7 +217,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -194,71 +226,290 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Activity.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Activity.xaml",
+              "RelativeDocumentMoniker": "Views\\ProgressPages\\Activity.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Activity.xaml",
+              "RelativeToolTip": "Views\\ProgressPages\\Activity.xaml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAI4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T07:11:48.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WaterPage.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\WaterPage.xaml",
               "RelativeDocumentMoniker": "Views\\ProgressPages\\WaterPage.xaml",
               "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\WaterPage.xaml",
               "RelativeToolTip": "Views\\ProgressPages\\WaterPage.xaml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-09T12:57:20.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Views\\MainPages\\MainPage.xaml",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\MainPage.xaml",
-              "RelativeToolTip": "Views\\MainPages\\MainPage.xaml",
-              "ViewState": "AgIAAP4AAAAAAAAAAAAAAAgBAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T19:55:22.065Z",
+              "DocumentIndex": 1,
+              "Title": "Kkal.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Kkal.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProgressPages\\Kkal.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Kkal.xaml.cs",
+              "RelativeToolTip": "Views\\ProgressPages\\Kkal.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAD4vzUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T06:47:55.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sports.xaml",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sports.xaml",
-              "RelativeDocumentMoniker": "Views\\SportsPages\\Sports.xaml",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sports.xaml",
-              "RelativeToolTip": "Views\\SportsPages\\Sports.xaml",
-              "ViewState": "AgIAALIAAAAAAAAAAAAAAMgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-07T19:10:06.69Z",
+              "DocumentIndex": 3,
+              "Title": "Activity.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Activity.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProgressPages\\Activity.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Activity.xaml.cs",
+              "RelativeToolTip": "Views\\ProgressPages\\Activity.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T07:12:31.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Sleeping.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Sleeping.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProgressPages\\Sleeping.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Sleeping.xaml.cs",
+              "RelativeToolTip": "Views\\ProgressPages\\Sleeping.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T07:06:33.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sleeping.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Sleeping.xaml",
+              "RelativeDocumentMoniker": "Views\\ProgressPages\\Sleeping.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Sleeping.xaml",
+              "RelativeToolTip": "Views\\ProgressPages\\Sleeping.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T07:07:08.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainPages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Views\\MainPages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T18:57:34.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kkal.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Kkal.xaml",
+              "RelativeDocumentMoniker": "Views\\ProgressPages\\Kkal.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\Kkal.xaml",
+              "RelativeToolTip": "Views\\ProgressPages\\Kkal.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T06:47:09.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "WaterPage.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\WaterPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\ProgressPages\\WaterPage.xaml.cs",
               "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProgressPages\\WaterPage.xaml.cs",
               "RelativeToolTip": "Views\\ProgressPages\\WaterPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T12:59:06.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RulesPage.xaml",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\RulesPage.xaml",
-              "RelativeDocumentMoniker": "Views\\TechnicalPages\\RulesPage.xaml",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\RulesPage.xaml",
-              "RelativeToolTip": "Views\\TechnicalPages\\RulesPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MainPages\\MainPage.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\MainPage.xaml",
+              "RelativeToolTip": "Views\\MainPages\\MainPage.xaml",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAAAAUBAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-09T12:39:25.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T19:55:22.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Views\\ProfilePages\\ProfilePage.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\ProfilePage.xaml",
+              "RelativeToolTip": "Views\\ProfilePages\\ProfilePage.xaml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T21:21:33.504Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Sport2.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport2.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SportsPages\\Sport2.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport2.xaml.cs",
+              "RelativeToolTip": "Views\\SportsPages\\Sport2.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T20:22:20.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T09:57:55.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TechnicalPages\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "Views\\TechnicalPages\\SettingsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T12:12:20.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProfilePages\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "Views\\ProfilePages\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T21:23:13.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WhoYouAreTodayPage.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\WhoYouAreTodayPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ProfilePages\\WhoYouAreTodayPage.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\WhoYouAreTodayPage.xaml",
+              "RelativeToolTip": "Views\\ProfilePages\\WhoYouAreTodayPage.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T07:23:06.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TechnicalPages\\SettingsPage.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\SettingsPage.xaml",
+              "RelativeToolTip": "Views\\TechnicalPages\\SettingsPage.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T12:11:44.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WhoYouAreTodayPage.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\WhoYouAreTodayPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProfilePages\\WhoYouAreTodayPage.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\WhoYouAreTodayPage.xaml.cs",
+              "RelativeToolTip": "Views\\ProfilePages\\WhoYouAreTodayPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T07:23:55.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T18:33:54.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NotReady.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\NotReady.xaml",
+              "RelativeDocumentMoniker": "Views\\TechnicalPages\\NotReady.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\NotReady.xaml",
+              "RelativeToolTip": "Views\\TechnicalPages\\NotReady.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-08T19:14:43.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Sport1.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport1.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SportsPages\\Sport1.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport1.xaml.cs",
+              "RelativeToolTip": "Views\\SportsPages\\Sport1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:47:09.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Sport1.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport1.xaml",
+              "RelativeDocumentMoniker": "Views\\SportsPages\\Sport1.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport1.xaml",
+              "RelativeToolTip": "Views\\SportsPages\\Sport1.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-07T19:46:27.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NotReady.xaml.cs",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\NotReady.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TechnicalPages\\NotReady.xaml.cs",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\NotReady.xaml.cs",
+              "RelativeToolTip": "Views\\TechnicalPages\\NotReady.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T19:15:53.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
@@ -266,38 +517,35 @@
               "RelativeToolTip": "AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T19:26:11.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T19:26:11.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "RulesPage.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\RulesPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TechnicalPages\\RulesPage.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\RulesPage.xaml",
+              "RelativeToolTip": "Views\\TechnicalPages\\RulesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-14T09:57:55.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T12:39:25.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MainPages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\MainPage.xaml.cs",
-              "RelativeToolTip": "Views\\MainPages\\MainPage.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T18:57:34.777Z",
-              "EditorCaption": ""
+              "DocumentIndex": 23,
+              "Title": "Sports.xaml",
+              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sports.xaml",
+              "RelativeDocumentMoniker": "Views\\SportsPages\\Sports.xaml",
+              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sports.xaml",
+              "RelativeToolTip": "Views\\SportsPages\\Sports.xaml",
+              "ViewState": "AgIAALIAAAAAAAAAAAAAAMgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-07T19:10:06.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "Sport2.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport2.xaml",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sport2.xaml",
@@ -309,72 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SettingsPage.xaml.cs",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\SettingsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\TechnicalPages\\SettingsPage.xaml.cs",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\SettingsPage.xaml.cs",
-              "RelativeToolTip": "Views\\TechnicalPages\\SettingsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T12:12:20.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProfilePage.xaml",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\ProfilePage.xaml",
-              "RelativeDocumentMoniker": "Views\\ProfilePages\\ProfilePage.xaml",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\ProfilePage.xaml",
-              "RelativeToolTip": "Views\\ProfilePages\\ProfilePage.xaml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T21:21:33.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProfilePage.xaml.cs",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\ProfilePage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ProfilePages\\ProfilePage.xaml.cs",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\ProfilePages\\ProfilePage.xaml.cs",
-              "RelativeToolTip": "Views\\ProfilePages\\ProfilePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T21:23:13.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SettingsPage.xaml",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\SettingsPage.xaml",
-              "RelativeDocumentMoniker": "Views\\TechnicalPages\\SettingsPage.xaml",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\SettingsPage.xaml",
-              "RelativeToolTip": "Views\\TechnicalPages\\SettingsPage.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-09T12:11:44.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NotReady.xaml",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\NotReady.xaml",
-              "RelativeDocumentMoniker": "Views\\TechnicalPages\\NotReady.xaml",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\NotReady.xaml",
-              "RelativeToolTip": "Views\\TechnicalPages\\NotReady.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T19:14:43.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
               "Title": "RulesPage.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\RulesPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\TechnicalPages\\RulesPage.xaml.cs",
@@ -382,25 +565,11 @@
               "RelativeToolTip": "Views\\TechnicalPages\\RulesPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T12:40:14.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T12:40:14.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NotReady.xaml.cs",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\NotReady.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\TechnicalPages\\NotReady.xaml.cs",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\TechnicalPages\\NotReady.xaml.cs",
-              "RelativeToolTip": "Views\\TechnicalPages\\NotReady.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T19:15:53.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "Sport3.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport3.xaml",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sport3.xaml",
@@ -412,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "Sport6.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport6.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sport6.xaml.cs",
@@ -424,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "Sports.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sports.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sports.xaml.cs",
@@ -436,20 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T18:33:54.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "Sport6.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport6.xaml",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sport6.xaml",
@@ -461,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\HomePage.xaml",
               "RelativeDocumentMoniker": "Views\\MainPages\\HomePage.xaml",
@@ -473,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\MainPages\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MainPages\\HomePage.xaml.cs",
@@ -485,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\\u0411\u0435\u043A\u0441\u0443\u043B\u0442\u0430\u043D\\AppData\\Local\\Temp\\e7007953-652f-4614-be93-af36eea12410_HG.zip.410\\HG\\HG\\MauiProgram.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\\u0411\u0435\u043A\u0441\u0443\u043B\u0442\u0430\u043D\\AppData\\Local\\Temp\\e7007953-652f-4614-be93-af36eea12410_HG.zip.410\\HG\\HG\\MauiProgram.cs",
@@ -498,19 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Sport2.xaml.cs",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport2.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\SportsPages\\Sport2.xaml.cs",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport2.xaml.cs",
-              "RelativeToolTip": "Views\\SportsPages\\Sport2.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T20:22:20.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 35,
               "Title": "BearHelloPage.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\BearHelloPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Registration\\BearHelloPage.xaml.cs",
@@ -522,19 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Sport1.xaml.cs",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport1.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\SportsPages\\Sport1.xaml.cs",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport1.xaml.cs",
-              "RelativeToolTip": "Views\\SportsPages\\Sport1.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T19:47:09.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 37,
               "Title": "Sport3.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport3.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sport3.xaml.cs",
@@ -546,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 36,
               "Title": "Sport4.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport4.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sport4.xaml.cs",
@@ -558,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "Sport5.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport5.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sport5.xaml.cs",
@@ -570,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "Sport5.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport5.xaml",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sport5.xaml",
@@ -582,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "Sport4.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport4.xaml",
               "RelativeDocumentMoniker": "Views\\SportsPages\\Sport4.xaml",
@@ -594,19 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Sport1.xaml",
-              "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport1.xaml",
-              "RelativeDocumentMoniker": "Views\\SportsPages\\Sport1.xaml",
-              "ToolTip": "C:\\C# MAUI APP\\FitnessApp\\Views\\SportsPages\\Sport1.xaml",
-              "RelativeToolTip": "Views\\SportsPages\\Sport1.xaml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-07T19:46:27.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "RegistrationPage.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\RegistrationPage.xaml",
               "RelativeDocumentMoniker": "Views\\Registration\\RegistrationPage.xaml",
@@ -618,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "HowToRegistratePage.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\HowToRegistratePage.xaml",
               "RelativeDocumentMoniker": "Views\\Registration\\HowToRegistratePage.xaml",
@@ -630,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "HelloPage.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\HelloPage.xaml",
               "RelativeDocumentMoniker": "Views\\Registration\\HelloPage.xaml",
@@ -642,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Views\\Registration\\LoginPage.xaml",
@@ -654,7 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "MotivationPage.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\MotivationPage.xaml",
               "RelativeDocumentMoniker": "Views\\Registration\\MotivationPage.xaml",
@@ -666,7 +786,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "DataPage.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\DataPage.xaml",
               "RelativeDocumentMoniker": "Views\\Registration\\DataPage.xaml",
@@ -678,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "BearHelloPage.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\BearHelloPage.xaml",
               "RelativeDocumentMoniker": "Views\\Registration\\BearHelloPage.xaml",
@@ -690,7 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 50,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -702,7 +822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -714,7 +834,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 48,
               "Title": "Styles.xaml",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Resources\\Styles\\Styles.xaml",
               "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
@@ -726,7 +846,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 51,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\C# MAUI APP\\FitnessApp\\Views\\Registration\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Registration\\LoginPage.xaml.cs",

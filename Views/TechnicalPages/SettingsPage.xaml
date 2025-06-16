@@ -21,10 +21,26 @@
         </Grid>
         
         
-        <Label Text="Звук" VerticalOptions="Center" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start"/>
-        <Label Text="Техподдержка" VerticalOptions="Center" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start"/>
-        <Label Text="Рекомендовать друзьям" VerticalOptions="Center" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start"/>
-        <Label Text="Напоминалка" VerticalOptions="Center" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start"/>
+        <Label Text="Звук" VerticalOptions="Center" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="GoNotReady" />
+            </Label.GestureRecognizers>
+        </Label>
+        <Label Text="Техподдержка" VerticalOptions="Center" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="GoNotReady" />
+            </Label.GestureRecognizers>
+        </Label>
+        <Label Text="Рекомендовать друзьям" VerticalOptions="Center" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="GoNotReady" />
+            </Label.GestureRecognizers>
+        </Label>
+        <Label Text="Напоминалка" VerticalOptions="Center" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="GoNotReady" />
+            </Label.GestureRecognizers>
+        </Label>
         <Label Text="Правила использования" VerticalOptions="Center" FontSize="16" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start">
             <Label.GestureRecognizers>
                 <TapGestureRecognizer Tapped="GoRulesPage" />

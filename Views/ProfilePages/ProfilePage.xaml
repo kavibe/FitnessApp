@@ -38,62 +38,85 @@
 
                     <VerticalStackLayout Spacing="16">
                         <!--Достижения-->
-                        <Frame CornerRadius="40" HasShadow="True" HeightRequest="104" Padding="24,16,24,16" BorderColor="Transparent">
-                            <Frame.Shadow>
-                                <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.3" Radius="5"/>
-                            </Frame.Shadow>
-                            <Frame.Background>
-                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                                    <GradientStop Color="#C483E1" Offset="0.0" />
-                                    <GradientStop Color="#AE4CDA" Offset="1.0" />
-                                </LinearGradientBrush>
-                            </Frame.Background>
+                        <Grid>
+                            <Frame CornerRadius="40" HasShadow="True" HeightRequest="104" Padding="24,16,24,16" BorderColor="Transparent">
+                                <Frame.Shadow>
+                                    <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.3" Radius="5"/>
+                                </Frame.Shadow>
+                                <Frame.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                        <GradientStop Color="#C483E1" Offset="0.0" />
+                                        <GradientStop Color="#AE4CDA" Offset="1.0" />
+                                    </LinearGradientBrush>
+                                </Frame.Background>
 
-                            <Grid ColumnDefinitions="*, auto" RowDefinitions="*, auto">
-                                <Image Source="icon_achives.svg" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Image>
-                                <Label Text="Достижения" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="End" Grid.Column="0" Grid.Row="1"></Label>
-                                <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"></Image>
-                            </Grid>
-                        </Frame>
+                                <Grid ColumnDefinitions="*, auto" RowDefinitions="*, auto">
+                                    <Image Source="icon_achives.svg" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                    <Label Text="Достижения" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="End" Grid.Column="0" Grid.Row="1"></Label>
+                                    <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                </Grid>
+                            </Frame>
+
+                            <Button 
+                                BackgroundColor="Transparent" 
+                                BorderWidth="0" 
+                                Clicked="GoNotReady" 
+                                CornerRadius="40" />
+                        </Grid>
 
                         <Grid ColumnDefinitions="*, 135" ColumnSpacing="16">
                             <!--Чат с борисом-->
-                            <Frame CornerRadius="40" HasShadow="True" HeightRequest="124" Padding="24,16,24,16" Grid.Column="0" BorderColor="Transparent">
-                                <Frame.Shadow>
-                                    <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.3" Radius="5"/>
-                                </Frame.Shadow>
-                                <Frame.Background>
-                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                                        <GradientStop Color="#FF94BC" Offset="0.0" />
-                                        <GradientStop Color="#E6739E" Offset="1.0" />
-                                    </LinearGradientBrush>
-                                </Frame.Background>
+                            <Grid>
+                                <Frame CornerRadius="40" HasShadow="True" HeightRequest="124" Padding="24,16,24,16" Grid.Column="0" BorderColor="Transparent">
+                                    <Frame.Shadow>
+                                        <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.3" Radius="5"/>
+                                    </Frame.Shadow>
+                                    <Frame.Background>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                            <GradientStop Color="#FF94BC" Offset="0.0" />
+                                            <GradientStop Color="#E6739E" Offset="1.0" />
+                                        </LinearGradientBrush>
+                                    </Frame.Background>
 
-                                <Grid ColumnDefinitions="*, auto" RowDefinitions="*, auto">
-                                    <Image Source="icon_chat" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Image>
-                                    <Label Text="Чат с Борисом" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="End" Grid.Column="0" Grid.Row="1" WidthRequest="112" HorizontalOptions="Start"></Label>
-                                    <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"></Image>
-                                </Grid>
-                            </Frame>
+                                    <Grid ColumnDefinitions="*, auto" RowDefinitions="*, auto">
+                                        <Image Source="icon_chat" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                        <Label Text="Чат с Борисом" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="End" Grid.Column="0" Grid.Row="1" WidthRequest="112" HorizontalOptions="Start"></Label>
+                                        <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                    </Grid>
+                                </Frame>
+
+                                <Button 
+                                    BackgroundColor="Transparent" 
+                                    BorderWidth="0" 
+                                    Clicked="GoWhoAreYou" 
+                                    CornerRadius="40" />
+                            </Grid>
 
                             <!--Кто ты сегодня?-->
-                            <Frame CornerRadius="40" HasShadow="True" HeightRequest="124" Padding="24,16,24,16" Grid.Column="1" BorderColor="Transparent">
-                                <Frame.Shadow>
-                                    <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.3" Radius="5"/>
-                                </Frame.Shadow>
-                                <Frame.Background>
-                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                                        <GradientStop Color="#FBFF94" Offset="0.0" />
-                                        <GradientStop Color="#F4E27B" Offset="1.0" />
-                                    </LinearGradientBrush>
-                                </Frame.Background>
+                            <Grid>
+                                <Frame CornerRadius="40" HasShadow="True" HeightRequest="124" Padding="24,16,24,16" Grid.Column="1" BorderColor="Transparent">
+                                    <Frame.Shadow>
+                                        <Shadow Brush="#4E4E4E" Offset="5,5" Opacity="0.3" Radius="5"/>
+                                    </Frame.Shadow>
+                                    <Frame.Background>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                            <GradientStop Color="#FBFF94" Offset="0.0" />
+                                            <GradientStop Color="#F4E27B" Offset="1.0" />
+                                        </LinearGradientBrush>
+                                    </Frame.Background>
 
-                                <Grid ColumnDefinitions="*, auto" RowDefinitions="*, auto">
-                                    <Image Source="icon_smile.svg" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Image>
-                                    <Label Text="Кто ты сегодня?" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="End" Grid.Column="0" Grid.Row="1" WidthRequest="112" HorizontalOptions="Start"></Label>
-                                    <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"></Image>
-                                </Grid>
-                            </Frame>
+                                    <Grid ColumnDefinitions="*, auto" RowDefinitions="*, auto">
+                                        <Image Source="icon_smile.svg" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                        <Label Text="Кто ты сегодня?" FontSize="20" FontFamily="MontserratMedium" TextColor="#3e3e3e" VerticalOptions="End" Grid.Column="0" Grid.Row="1" WidthRequest="112" HorizontalOptions="Start"></Label>
+                                        <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"></Image>
+                                    </Grid>
+                                </Frame>
+                                <Button 
+                                    BackgroundColor="Transparent" 
+                                    BorderWidth="0" 
+                                    Clicked="GoWhoAreYou" 
+                                    CornerRadius="40" />
+                            </Grid>
                         </Grid>
                     </VerticalStackLayout>
 

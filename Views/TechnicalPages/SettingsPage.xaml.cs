@@ -16,4 +16,9 @@ public partial class SettingsPage : ContentPage
     {
         await Shell.Current.GoToAsync("///RulesPage");
     }
+
+    private async void GoNotReady(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///NotReady");
+    }
 }

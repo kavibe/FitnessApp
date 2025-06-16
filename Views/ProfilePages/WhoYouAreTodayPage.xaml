@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace=FitnessApp.Views.ProfilePages"
+             x:Class="FitnessApp.Views.ProfilePages.WhoYouAreTodayPage">
+    <Grid>
+        <!-- Фоны -->
+        <!-- Энерджайзер -->
+        <VerticalStackLayout>
+            <Image Source="who_ypu_are_1.png" Aspect="Fill" IsVisible="False"></Image>
+        </VerticalStackLayout>
+
+        <!-- Стабильный -->
+        <VerticalStackLayout>
+            <Image Source="who_ypu_are_2.png" Aspect="Fill" IsVisible="False"></Image>
+        </VerticalStackLayout>
+
+        <!-- Экономичный -->
+        <VerticalStackLayout>
+            <Image Source="who_ypu_are_3.png" Aspect="Fill" IsVisible="True"></Image>
+        </VerticalStackLayout>
+
+
+        <Grid Padding="20" RowDefinitions="auto, *, auto, auto, auto, 96" RowSpacing="24">
+            <Grid ColumnDefinitions="auto, *, auto" RowDefinitions="auto, auto" RowSpacing="24" Grid.Row="0">
+                <HorizontalStackLayout HorizontalOptions="Start" Grid.Column="0" Grid.Row="0">
+                    <ImageButton Source="back_icon.svg" HeightRequest="10" VerticalOptions="Center"/>
+                    <Label Text="Назад" VerticalOptions="Center" FontSize="14" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start"/>
+                </HorizontalStackLayout>
+                <Label Text="Кто ты сегодня?" Grid.Column="2" Grid.Row="0" VerticalOptions="Center" FontSize="24" FontFamily="MontserratMedium" TextColor="#3e3e3e" HorizontalOptions="End"/>
+            </Grid>
+
+            <!--Текст Большой-->
+            <Grid Grid.Row="2" >
+                <Label Text="Энерджайзер" IsVisible="False" VerticalOptions="Center" FontSize="40" FontFamily="MontserratBlack" TextColor="#A6321D" HorizontalOptions="Center"/>
+                <Label Text="Стабильный" IsVisible="False" VerticalOptions="Center" FontSize="40" FontFamily="MontserratBlack" TextColor="#6B3603" HorizontalOptions="Center"/>
+                <Label Text="Экономичный" IsVisible="True" VerticalOptions="Center" FontSize="40" FontFamily="MontserratBlack" TextColor="#345931" HorizontalOptions="Center"/>
+            </Grid>
+
+            <Frame Grid.Row="3" CornerRadius="40" BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="40" VerticalOptions="End">
+                <Slider Minimum="0" Maximum="100" Value="50" MaximumTrackColor="#A6321D"  MinimumTrackColor="#345931" HeightRequest="40" ThumbColor="#6B3603"></Slider>
+            </Frame>
+
+            <Button CornerRadius="40" Grid.Row="4" HeightRequest="56" Text="Готово" TextColor="#3e3e3e" FontFamily="MontserratMedium" FontSize="20" BackgroundColor="#FAF8F5"></Button>
+
+            <!--Текст Малый-->
+            <Grid Grid.Row="5">
+                <Label Text="Полон сил! Время для интенсивной тренировки" HorizontalTextAlignment="Center" IsVisible="False" VerticalOptions="End" FontSize="24" FontFamily="MontserratMedium" TextColor="#A6321D" HorizontalOptions="Center"/>
+                <Label Text="Хороший день для планомерной работы" HorizontalTextAlignment="Center" IsVisible="False" VerticalOptions="End" FontSize="24" FontFamily="MontserratMedium" TextColor="#A6321D" HorizontalOptions="Center"/>
+                <Label Text="Выбери йогу, растяжку или просто отдохни — завтра будешь сильнее!" HorizontalTextAlignment="Center" IsVisible="True" VerticalOptions="End" FontSize="24" FontFamily="MontserratMedium" TextColor="#345931" HorizontalOptions="Center"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -65,6 +65,30 @@ build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.ProfilePa
 build_metadata.AdditionalFiles.TargetPath = Views\ProfilePages\ProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProfilePages\ProfilePage.xaml
 
+[C:/C\# MAUI APP/FitnessApp/Views/ProfilePages/WhoYouAreTodayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.ProfilePages.WhoYouAreTodayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProfilePages\WhoYouAreTodayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProfilePages\WhoYouAreTodayPage.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/ProgressPages/Activity.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.ProgressPages.Activity.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProgressPages\Activity.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProgressPages\Activity.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/ProgressPages/Kkal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.ProgressPages.Kkal.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProgressPages\Kkal.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProgressPages\Kkal.xaml
+
+[C:/C\# MAUI APP/FitnessApp/Views/ProgressPages/Sleeping.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.ProgressPages.Sleeping.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProgressPages\Sleeping.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProgressPages\Sleeping.xaml
+
 [C:/C\# MAUI APP/FitnessApp/Views/ProgressPages/WaterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FitnessApp.Views.ProgressPages.WaterPage.xaml

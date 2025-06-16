@@ -35,4 +35,14 @@ public partial class ProfilePage : ContentPage
     {
         await Shell.Current.GoToAsync("///SettingsPage");
     }
+
+    private async void GoWhoAreYou(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///WhoAreYou");
+    }
+
+    private async void GoNotReady(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///NotReady");
+    }
 }

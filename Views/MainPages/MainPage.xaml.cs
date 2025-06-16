@@ -31,4 +31,19 @@ public partial class MainPage : ContentPage
     {
         await Shell.Current.GoToAsync("///WaterPage");
     }
+
+    private async void GoKkal(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///Kkal");
+    }
+
+    private async void GoSleeping(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///Sleeping");
+    }
+
+    private async void GoActivity(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///Activity");
+    }
 }

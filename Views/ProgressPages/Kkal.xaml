@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.Views.ProgressPages.Kkal"
+             Title="Калории">
+
+    <Grid>
+        <Grid Padding="20, 20, 20, 0" RowSpacing="16" RowDefinitions="auto, *">
+            <!-- Шапка -->
+            <Grid ColumnDefinitions="auto, *, auto" RowDefinitions="auto, auto, auto" RowSpacing="24" Grid.Row="0">
+                <HorizontalStackLayout HorizontalOptions="Start" Grid.Column="0" Grid.Row="0">
+                    <ImageButton Source="back_icon.svg" Clicked="GoMainPage" HeightRequest="10" VerticalOptions="Center"/>
+                    <Label Text="Назад" VerticalOptions="Center" FontSize="14" FontFamily="Montserrat" TextColor="#3e3e3e" HorizontalOptions="Start">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoMainPage" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </HorizontalStackLayout>
+                <Label Text="Калории" Grid.Column="2" Grid.Row="0" VerticalOptions="Center" FontSize="24" FontFamily="MontserratMedium" TextColor="#3e3e3e" HorizontalOptions="End"/>
+                <VerticalStackLayout Grid.Row="1" Grid.Column="0" Spacing="8">
+                    <Label Text="Сегодня: 20.06.2025" TextColor="#8E8E8E" FontSize="12" FontFamily="MontserratMedium"></Label>
+                    <Label Text="Каждый шаг к цели – это победа!" TextColor="#3e3e3e" FontSize="24" FontFamily="MontserratMedium" WidthRequest="300"></Label>
+                </VerticalStackLayout>
+                <ImageButton Source="icon_add_food.svg" Clicked="ToggleInputVisibility" Grid.Column="2" Grid.Row="1" VerticalOptions="End" HeightRequest="40" HorizontalOptions="End"></ImageButton>
+                <HorizontalStackLayout Grid.Row="2" Margin="0, -20,0,0">
+                    <ImageButton Source="icon_info.svg" Grid.Column="2" Grid.Row="1" VerticalOptions="Start" HeightRequest="16" HorizontalOptions="Start"></ImageButton>
+                    <Label Text="Записывайте по одному наименованию!" TextColor="#E14C4C" VerticalOptions="Start" FontSize="12" FontFamily="MontserratMedium" WidthRequest="154" IsVisible="True"></Label>
+                </HorizontalStackLayout>
+            </Grid>
+
+            <ScrollView Grid.Row="1">
+                <VerticalStackLayout Spacing="16">
+                    <CollectionView ItemsSource="{Binding FoodItems}" SelectionMode="None" EmptyView="Список пока пуст">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <VerticalStackLayout Spacing="16" Margin="0,0,0,16">
+                                    <Image Source="line.svg" Aspect="Fill"/>
+                                    <Grid ColumnDefinitions="135, *, auto" ColumnSpacing="16">
+                                        <!-- Изображение блюда -->
+                                        <Frame Padding="0" BorderColor="Transparent" CornerRadius="40" Grid.Column="0">
+                                            <Image Source="{Binding ImageUrl}" Aspect="AspectFill" HeightRequest="111"/>
+                                        </Frame>
+                                        <!-- Основная информация -->
+                                        <Grid Grid.Column="1" RowDefinitions="auto, *, auto">
+                                            <VerticalStackLayout Grid.Row="0">
+                                                <Label Text="{Binding Name}" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium"/>
+                                                <HorizontalStackLayout Spacing="24">
+                                                    <Label Text="{Binding Calories, StringFormat='{0} ккал'}" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium"/>
+                                                    <Label Text="{Binding Weight, StringFormat='{0} г'}" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium"/>
+                                                </HorizontalStackLayout>
+                                            </VerticalStackLayout>
+                                            <!-- Пищевая ценность -->
+                                            <FlexLayout Wrap="Wrap" AlignItems="Center" Grid.Row="2">
+                                                <HorizontalStackLayout Spacing="6" Margin="0,0,6,0">
+                                                    <Ellipse WidthRequest="6" HeightRequest="6" Fill="#E14C4C" VerticalOptions="Center"/>
+                                                    <Label Text="{Binding Fat, StringFormat='{0} г жира'}" TextColor="#3e3e3e" FontSize="12" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                                </HorizontalStackLayout>
+                                                <HorizontalStackLayout Spacing="6">
+                                                    <Ellipse WidthRequest="6" HeightRequest="6" Fill="#37FF00" VerticalOptions="Center"/>
+                                                    <Label Text="{Binding Protein, StringFormat='{0} г белка'}" TextColor="#3e3e3e" FontSize="12" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                                </HorizontalStackLayout>
+                                                <HorizontalStackLayout Spacing="6">
+                                                    <Ellipse WidthRequest="6" HeightRequest="6" Fill="#FFE600" VerticalOptions="Center"/>
+                                                    <Label Text="{Binding Carbs, StringFormat='{0} г углеводов'}" TextColor="#3e3e3e" FontSize="12" FontFamily="MontserratMedium" VerticalOptions="Center"/>
+                                                </HorizontalStackLayout>
+                                            </FlexLayout>
+                                        </Grid>
+                                        <!-- Кнопка удаления -->
+                                        <Button Grid.Column="2" 
+                                                Text="❌" 
+                                                BackgroundColor="Transparent"
+                                                TextColor="Red"
+                                                FontSize="20"
+                                                VerticalOptions="Center"
+                                                HorizontalOptions="End"
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.RemoveCommand}"
+                                                CommandParameter="{Binding .}"/>
+                                    </Grid>
+                                </VerticalStackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+
+        <!-- Затемнение -->
+        <BoxView Grid.RowSpan="2"
+                 BackgroundColor="Black"
+                 Opacity="0.7"
+                 IsVisible="{Binding InputKkalIsVisible}"
+                 x:Name="Overlay"/>
+
+        <!-- Попап добавления еды -->
+        <Frame Grid.Row="1"
+               IsVisible="{Binding InputKkalIsVisible}"
+               x:Name="PopupFrame"
+               CornerRadius="40"
+               BackgroundColor="#FAF8F5"
+               HorizontalOptions="Fill"
+               VerticalOptions="Center"
+               Margin="20"
+               Padding="16">
+            <Grid RowDefinitions="auto, auto" RowSpacing="16">
+                <ImageButton Source="icon_cross.svg" Clicked="ToggleInputVisibility" Grid.Row="0" HeightRequest="32" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Frame Padding="0" BorderColor="Transparent" CornerRadius="40" WidthRequest="135">
+                    <Image Source="add_pc.png" Aspect="AspectFill" HeightRequest="111" />
+                </Frame>
+                <VerticalStackLayout Grid.Row="1" Spacing="16">
+                    <Frame CornerRadius="40" BackgroundColor="White" Padding="0" HasShadow="True" HeightRequest="52" BorderColor="Transparent" Margin="4">
+                        <Entry x:Name="WhatDoYouEat" Placeholder="Что вы ели?" BackgroundColor="Transparent" Keyboard="Text" TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" Margin="20,-4" />
+                    </Frame>
+                    <Frame CornerRadius="40" BackgroundColor="White" Padding="0" HasShadow="True" HeightRequest="52" BorderColor="Transparent" Margin="4">
+                        <Entry x:Name="Weight" Placeholder="Вес (г)" BackgroundColor="Transparent" Keyboard="Numeric" TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" Margin="20,-4" />
+                    </Frame>
+                    <Frame CornerRadius="40" BackgroundColor="White" Padding="0" HasShadow="True" HeightRequest="52" BorderColor="Transparent" Margin="4">
+                        <Entry x:Name="KkalIn" Placeholder="Ккал на 100г" BackgroundColor="Transparent" Keyboard="Numeric" TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" Margin="20,-4" />
+                    </Frame>
+                    <VerticalStackLayout Spacing="8">
+                        <Grid ColumnDefinitions="auto, *, auto">
+                            <Label Text="Белки (100г):" Grid.Column="0" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium" HorizontalOptions="Center" VerticalOptions="Center" Margin="16, 0, 0, 0"/>
+                            <Frame CornerRadius="40" BackgroundColor="White" Padding="0" HasShadow="True" HeightRequest="52" Grid.Column="2" BorderColor="Transparent" Margin="4" WidthRequest="119">
+                                <Entry x:Name="Proteins" Placeholder="г" BackgroundColor="Transparent" Keyboard="Numeric" TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" Margin="20,-4" />
+                            </Frame>
+                        </Grid>
+                        <Grid ColumnDefinitions="auto, *, auto">
+                            <Label Text="Жиры (100г):" Grid.Column="0" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium" HorizontalOptions="Center" VerticalOptions="Center" Margin="16, 0, 0, 0"/>
+                            <Frame CornerRadius="40" BackgroundColor="White" Padding="0" HasShadow="True" HeightRequest="52" Grid.Column="2" BorderColor="Transparent" Margin="4" WidthRequest="119">
+                                <Entry x:Name="Fats" Placeholder="г" BackgroundColor="Transparent" Keyboard="Numeric" TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" Margin="20,-4" />
+                            </Frame>
+                        </Grid>
+                        <Grid ColumnDefinitions="auto, *, auto">
+                            <Label Text="Углеводы (100г):" Grid.Column="0" TextColor="#3e3e3e" FontSize="16" FontFamily="MontserratMedium" HorizontalOptions="Center" VerticalOptions="Center" Margin="16, 0, 0, 0"/>
+                            <Frame CornerRadius="40" BackgroundColor="White" Padding="0" HasShadow="True" HeightRequest="52" Grid.Column="2" BorderColor="Transparent" Margin="4" WidthRequest="119">
+                                <Entry x:Name="Carbohydrates" Placeholder="г" BackgroundColor="Transparent" Keyboard="Numeric" TextColor="#8E8E8E" FontSize="16" FontFamily="MontserratSemiBold" Margin="20,-4" />
+                            </Frame>
+                        </Grid>
+                    </VerticalStackLayout>
+                    <Button CornerRadius="40" HeightRequest="56" Text="Добавить" TextColor="White" FontFamily="MontserratBold" FontSize="16" Clicked="AddFood_Clicked">
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#BC6FF1" Offset="0.0" />
+                                <GradientStop Color="#6C63FF" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </VerticalStackLayout>
+            </Grid>
+        </Frame>
+    </Grid>
+</ContentPage>

@@ -89,4 +89,20 @@
     <ShellContent
         ContentTemplate="{DataTemplate viewsProgressPages:WaterPage}"
         Route="WaterPage" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsProgressPages:Kkal}"
+        Route="Kkal" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsProgressPages:Sleeping}"
+        Route="Sleeping" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsProgressPages:Activity}"
+        Route="Activity" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsProfilePages:WhoYouAreTodayPage}"
+        Route="WhoAreYou" />
 </Shell>
