@@ -132,4 +132,9 @@
         Shell.NavBarIsVisible="False"
         Route="WhoAreYou" />
 
+    <ShellContent
+        ContentTemplate="{DataTemplate viewsProfilePages:AI}"
+        Shell.NavBarIsVisible="False"
+        Route="AI" />
+
 </Shell>

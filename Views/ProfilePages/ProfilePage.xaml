@@ -78,10 +78,10 @@
                                     <Image Source="icon_arr.svg" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Start"/>
                                 </Grid>
                                 <Frame.GestureRecognizers>
-                                    <TapGestureRecognizer Tapped="OpenTelegramBot"/>
+                                    <TapGestureRecognizer Tapped="GoAI"/>
                                 </Frame.GestureRecognizers>
                             </Frame>
-                            <Button Grid.Column="0" BackgroundColor="Transparent" BorderWidth="0" Clicked="OpenTelegramBot" CornerRadius="40"/>
+                            <Button Grid.Column="0" BackgroundColor="Transparent" BorderWidth="0" Clicked="GoAI" CornerRadius="40"/>
 
                             <!-- Кто ты сегодня? -->
                             <Frame Grid.Column="1" CornerRadius="40" HasShadow="True" HeightRequest="124" Padding="24,16,24,16" BorderColor="Transparent">

@@ -1,0 +1,24 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.Views.ProfilePages.AI"
+             Title="Чат с ботом">
+
+    <Grid>
+        <WebView x:Name="TelegramWebView"
+             VerticalOptions="FillAndExpand"
+             HorizontalOptions="FillAndExpand"/>
+
+        <!-- Кнопка "Назад" в углу экрана -->
+        <Button Text="✕"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="StartAndExpand"
+                Margin="0,0,0,10"
+                BackgroundColor="#BC6FF1"
+                TextColor="White"
+                FontSize="16"
+                CornerRadius="0"
+                Clicked="GoProfilePage"
+                HeightRequest="55"
+                WidthRequest="58"/>
+    </Grid>
+</ContentPage>

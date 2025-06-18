@@ -1,4 +1,5 @@
-﻿using FitnessApp.Views.TechnicalPages;
+﻿using FitnessApp.Views.ProfilePages;
+using FitnessApp.Views.TechnicalPages;
 
 namespace FitnessApp;
 
@@ -8,5 +9,6 @@ public partial class AppShell : Shell
 	{
 		InitializeComponent();
         Routing.RegisterRoute("NotReady", typeof(NotReady));
+        Routing.RegisterRoute("AI", typeof(AI));
     }
 }

@@ -20,7 +20,7 @@
                 </HorizontalStackLayout>
                 <Label Text="Сон" Grid.Column="2" Grid.Row="0" VerticalOptions="Center" FontSize="24" FontFamily="MontserratMedium" TextColor="#3e3e3e" HorizontalOptions="End"/>
                 <VerticalStackLayout Grid.Row="1" Grid.Column="0" Spacing="8">
-                    <Label Text="Сегодня: 20.06.2025" TextColor="#8E8E8E" FontSize="12" FontFamily="MontserratMedium"/>
+                    <Label Text="Сегодня: 19.06.2025" TextColor="#8E8E8E" FontSize="12" FontFamily="MontserratMedium"/>
                     <Label Text="Качественный сон — основа твоего здоровья и энергии!" TextColor="#3e3e3e" FontSize="20" FontFamily="MontserratMedium" WidthRequest="270"/>
                 </VerticalStackLayout>
                 <ImageButton Source="icon_gear.svg" Clicked="ToggleSleepingLimitVisibility" HeightRequest="32" Grid.Column="2" Grid.Row="1" VerticalOptions="Center"/>

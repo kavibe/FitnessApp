@@ -46,6 +46,11 @@ public partial class ProfilePage : ContentPage
         await Shell.Current.GoToAsync("NotReady");
     }
 
+    private async void GoAI(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("///AI");
+    }
+
     private async void OpenTelegramBot(object sender, EventArgs e)
     {
         try

@@ -63,7 +63,7 @@
                         <Frame Padding="0" CornerRadius="16" BackgroundColor="White" BorderColor="#D0CEF9">
                             <VerticalStackLayout>
                                 <Frame Padding="8" CornerRadius="16" BackgroundColor="#ECECFF" BorderColor="#D0CEF9">
-                                    <Label Text="23" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                                    <Label Text="16" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
                                 </Frame>
                                 <Label Text="пн" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
                             </VerticalStackLayout>
@@ -72,15 +72,15 @@
                         <Frame 
                         Padding="0" 
                         CornerRadius="16" 
-                        BackgroundColor="#D0CEF9"
+                        BackgroundColor="White"
                         BorderColor="#D0CEF9">
                             <VerticalStackLayout >
                                 <Frame
                                 Padding="8"
                                 CornerRadius="16"
-                                BackgroundColor="#8983E1"
-                                BorderColor="#8983E1">
-                                    <Label Text="24" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#FAF8F5"/>
+                                BackgroundColor="#ECECFF"
+                                BorderColor="#D0CEF9">
+                                    <Label Text="17" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
                                 </Frame>
                                 <Label Text="вт" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
                             </VerticalStackLayout>
@@ -97,7 +97,7 @@
                                 CornerRadius="16"
                                 BackgroundColor="#ECECFF"
                                 BorderColor="#D0CEF9">
-                                    <Label Text="25" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                                    <Label Text="18" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
                                 </Frame>
                                 <Label Text="ср" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
                             </VerticalStackLayout>
@@ -106,15 +106,15 @@
                         <Frame 
                         Padding="0" 
                         CornerRadius="16" 
-                        BackgroundColor="White"
+                        BackgroundColor="#D0CEF9"
                         BorderColor="#D0CEF9">
                             <VerticalStackLayout >
                                 <Frame
                                 Padding="8"
                                 CornerRadius="16"
-                                BackgroundColor="#ECECFF"
-                                BorderColor="#D0CEF9">
-                                    <Label Text="26" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                                BackgroundColor="#8983E1"
+                                BorderColor="#8983E1">
+                                    <Label Text="19" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#FAF8F5"/>
                                 </Frame>
                                 <Label Text="чт" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
                             </VerticalStackLayout>
@@ -131,7 +131,7 @@
                                 CornerRadius="16"
                                 BackgroundColor="#ECECFF"
                                 BorderColor="#D0CEF9">
-                                    <Label Text="27" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                                    <Label Text="20" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
                                 </Frame>
                                 <Label Text="пт" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
                             </VerticalStackLayout>
@@ -148,7 +148,7 @@
                                 CornerRadius="16"
                                 BackgroundColor="#ECECFF"
                                 BorderColor="#D0CEF9">
-                                    <Label Text="28" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                                    <Label Text="21" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
                                 </Frame>
                                 <Label Text="сб" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
                             </VerticalStackLayout>
@@ -165,7 +165,7 @@
                                 CornerRadius="16"
                                 BackgroundColor="#ECECFF"
                                 BorderColor="#D0CEF9">
-                                    <Label Text="29" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
+                                    <Label Text="22" FontFamily="Montserrat" FontSize="16" HorizontalOptions="Center" TextColor="#3e3e3e"/>
                                 </Frame>
                                 <Label Text="вс" FontFamily="Montserrat" FontSize="12" HorizontalOptions="Center" Padding="8" TextColor="#3e3e3e"/>
                             </VerticalStackLayout>
