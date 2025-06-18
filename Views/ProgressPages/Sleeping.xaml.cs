@@ -1,4 +1,7 @@
 using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using FitnessApp.Views.MainPages;
 using Microsoft.Maui.Controls;
 
 namespace FitnessApp.Views.ProgressPages;

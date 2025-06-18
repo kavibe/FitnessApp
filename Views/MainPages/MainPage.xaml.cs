@@ -1,9 +1,13 @@
 ﻿
+using FitnessApp.Views.ProgressPages;
+
 namespace FitnessApp.Views.MainPages;
 
 public partial class MainPage : ContentPage 
 {
+    public Sleeping Sleeping = App.Sleeping;
     public bool NotificationIsVisible { get; set; } = false;
+   
     public MainPage()
     {
         InitializeComponent();

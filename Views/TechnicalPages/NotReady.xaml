@@ -5,10 +5,10 @@
              Background="#FAF8F5">
     <Grid RowDefinitions="auto, auto, auto, *" RowSpacing="56" Padding="20, 20, 20, 0">
         <HorizontalStackLayout Grid.Row="0">
-            <ImageButton Source="back_icon.svg" Clicked="GoSports" HeightRequest="10" VerticalOptions="Center"/>
+            <ImageButton Source="back_icon.svg" Clicked="GoBack" HeightRequest="10" VerticalOptions="Center"/>
             <Label Text="Назад" VerticalOptions="Center" FontSize="14" FontFamily="Montserrat" TextColor="#3e3e3e" >
                 <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="GoSports" />
+                    <TapGestureRecognizer Tapped="GoBack" />
                 </Label.GestureRecognizers>
             </Label>
         </HorizontalStackLayout>

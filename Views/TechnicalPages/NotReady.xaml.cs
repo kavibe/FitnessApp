@@ -5,10 +5,11 @@ public partial class NotReady : ContentPage
 	public NotReady()
 	{
 		InitializeComponent();
-	}
+        Shell.SetNavBarIsVisible(this, false);
+    }
 
-    private async void GoSports(object sender, EventArgs e)
+    private async void GoBack(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("///Sports");
+        await Shell.Current.GoToAsync("..");
     }
 }

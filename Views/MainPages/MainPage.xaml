@@ -223,7 +223,7 @@
                                 <Image Source="icon_sleep.png" WidthRequest="40" HeightRequest="40" Grid.Column="0"/>
                                 <VerticalStackLayout Grid.Column="2">
                                     <Label Text="Сон" FontFamily="MontserratBold" FontSize="16" TextColor="#333"/>
-                                    <Label Text="10ч 20 мин" FontSize="16" FontFamily="MontserratMedium" TextColor="#333"/>
+                                    <Label Text="10 часов 20 минут" FontSize="16" FontFamily="MontserratMedium" TextColor="#333"/>
                                 </VerticalStackLayout>
                                 <Image Source="arrow1.png" WidthRequest="44" HeightRequest="24" Grid.Column="3"/>
                             </Grid>

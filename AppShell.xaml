@@ -12,97 +12,124 @@
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsRegistration:HelloPage}"
+        Shell.NavBarIsVisible="False"
         Route="HelloPage" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsRegistration:MotivationPage}"
+        Shell.NavBarIsVisible="False"
         Route="MotivationPage" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsRegistration:BearHelloPage}"
+        Shell.NavBarIsVisible="False"
         Route="BearHelloPage" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsRegistration:LoginPage}"
+        Shell.NavBarIsVisible="False"
         Route="LoginPage" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsRegistration:RegistrationPage}"
+        Shell.NavBarIsVisible="False"
         Route="RegistrationPage" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsRegistration:DataPage}"
+        Shell.NavBarIsVisible="False"
         Route="DataPage" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsRegistration:HowToRegistratePage}"
+        Shell.NavBarIsVisible="False"
         Route="HowToRegistratePage" />
-
+        
     <ShellContent
         ContentTemplate="{DataTemplate viewsMainPages:MainPage}"
+        Shell.NavBarIsVisible="False"
         Route="HomePage" />
 
     <ShellContent
+        ContentTemplate="{DataTemplate viewsProfilePages:ProfilePage}"
+        Shell.NavBarIsVisible="False"
+        Route="ProfilePage" />
+
+    <ShellContent
         ContentTemplate="{DataTemplate viewsSportsPages:Sports}"
+        Shell.NavBarIsVisible="False"
         Route="Sports" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsSportsPages:Sport1}"
+        Shell.NavBarIsVisible="False"
         Route="Sport1" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsSportsPages:Sport2}"
+        Shell.NavBarIsVisible="False"
         Route="Sport2" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsSportsPages:Sport3}"
+        Shell.NavBarIsVisible="False"
         Route="Sport3" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsSportsPages:Sport4}"
+        Shell.NavBarIsVisible="False"
         Route="Sport4" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsSportsPages:Sport5}"
+        Shell.NavBarIsVisible="False"
         Route="Sport5" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsSportsPages:Sport6}"
+        Shell.NavBarIsVisible="False"
         Route="Sport6" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsTechnicalPages:NotReady}"
+        Shell.NavBarIsVisible="False"
         Route="NotReady" />
 
-    <ShellContent
-        ContentTemplate="{DataTemplate viewsProfilePages:ProfilePage}"
-        Route="ProfilePage" />
+   
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsTechnicalPages:SettingsPage}"
+        Shell.NavBarIsVisible="False"
         Route="SettingsPage" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsTechnicalPages:RulesPage}"
+        Shell.NavBarIsVisible="False"
         Route="RulesPage" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsProgressPages:WaterPage}"
+        Shell.NavBarIsVisible="False"
         Route="WaterPage" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsProgressPages:Kkal}"
+        Shell.NavBarIsVisible="False"
         Route="Kkal" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsProgressPages:Sleeping}"
+        Shell.NavBarIsVisible="False"
         Route="Sleeping" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsProgressPages:Activity}"
+        Shell.NavBarIsVisible="False"
         Route="Activity" />
 
     <ShellContent
         ContentTemplate="{DataTemplate viewsProfilePages:WhoYouAreTodayPage}"
+        Shell.NavBarIsVisible="False"
         Route="WhoAreYou" />
+
 </Shell>
